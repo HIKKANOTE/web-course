@@ -1,4 +1,4 @@
-# web-course
+# Web программирование Электронное пособие
 This is my project from college written on Object Pascal in IDE Delphi 7
 
 Инструкция программы
