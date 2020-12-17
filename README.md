@@ -35,13 +35,13 @@ lectures")
 Рисунок 2.
 
 Кнопкой Печать лекция будет распечатана принтером, установленным по умолчанию.
-
-**4 Презентации**
 ____
+**4 Презентации**
+
  
 
 Нажав по кнопке «Презентации» откроется окно выбора презентаций. Рис. 3.
-____
+
 ![Alt text](https://github.com/HIKKANOTE/web-course/blob/new_branch/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F/instruction.files/image006.jpg?raw=true "Presentations")
 
 Рисунок 3.
@@ -51,11 +51,11 @@ ____
  
 
 Для того чтобы запустить чат необходимо подключиться к серверу или создать свой собственный Рис. 4. Рис. 5.
-____
+
 ![Alt text](https://github.com/HIKKANOTE/web-course/blob/new_branch/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F/instruction.files/image007.jpg?raw=true "server")
 
 Рисунок 4.
-____
+
 ![Alt text](https://github.com/HIKKANOTE/web-course/blob/new_branch/%D0%98%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F/instruction.files/image009.jpg?raw=true "server1")
 
 Рисунок 5.
