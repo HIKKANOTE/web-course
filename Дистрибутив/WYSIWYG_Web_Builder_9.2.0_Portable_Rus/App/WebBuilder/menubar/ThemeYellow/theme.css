@@ -1,0 +1,91 @@
+.ThemeYellowMenu, .ThemeYellowSubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #8B4A39;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeYellowMenuOuter {
+	background-color: #FFFFCC;
+	border: 1px solid #EABB00;
+}
+.ThemeYellowSubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 1px solid #EABB00;
+}
+.ThemeYellowMenu td {
+	padding: 3px 0px 3px 0px;
+}
+.ThemeYellowSubMenuTable {
+	color: #8B4A39;
+	text-align: left;
+	background-color: #FFFFCC;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeYellowSubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeYellowMainItem, .ThemeYellowMainItemHover, .ThemeYellowMainItemActive, .ThemeYellowMenuItem, .ThemeYellowMenuItemHover, .ThemeYellowMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeYellowMainItemHover, .ThemeYellowMainItemActive {
+	color: #8B4A39;
+	background-color: #FFCC00;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeYellowMenuItemHover, .ThemeYellowMenuItemActive {
+	color: #8B4A39;
+	background-color: #FFCC00;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeYellowMainItem .ThemeYellowMainItemText, .ThemeYellowMainItem .ThemeYellowMainFolderText {
+	border: 1px solid transparent;
+}
+.ThemeYellowMainItemHover .ThemeYellowMainItemText, .ThemeYellowMainItemActive .ThemeYellowMainItemText, .ThemeYellowMainItemHover .ThemeYellowMainFolderText, .ThemeYellowMainItemActive .ThemeYellowMainFolderText {
+	border: 1px solid #EABB00;
+}
+.ThemeYellowMenuFolderLeft, .ThemeYellowMenuFolderRight, .ThemeYellowMenuItemLeft, .ThemeYellowMenuItemRight {
+	padding: 3px 0px 3px 0px;
+}
+td.ThemeYellowMainFolderText, td.ThemeYellowMainItemText {
+	padding: 3px 5px 3px 5px;
+}
+.ThemeYellowMenuFolderText, .ThemeYellowMenuItemText {
+	padding: 3px 5px 3px 5px;
+}
+.ThemeYellowMenuItem .ThemeYellowMenuFolderText, .ThemeYellowMenuItem .ThemeYellowMenuItemText {
+	border: 1px solid transparent;
+}
+.ThemeYellowMenuItemHover .ThemeYellowMenuFolderText, .ThemeYellowMenuItemActive .ThemeYellowMenuFolderText, .ThemeYellowMenuItemHover .ThemeYellowMenuItemText, .ThemeYellowMenuItemActive .ThemeYellowMenuItemText {
+	border: 1px solid #EABB00;
+}
+td.ThemeYellowMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeYellowMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #8B4A39;
+}
+.ThemeYellowMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #8B4A39;
+}

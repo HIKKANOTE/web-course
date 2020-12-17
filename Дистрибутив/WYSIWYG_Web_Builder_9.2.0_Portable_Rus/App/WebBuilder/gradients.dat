@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gradient_styles>
+	<gradient name="Aqua" >
+		<color position="0.00" value="#002840" >
+		</color>
+		<color position="0.18" value="#002840" >
+		</color>
+		<color position="0.50" value="#4ECAFD" >
+		</color>
+		<color position="0.82" value="#002840" >
+		</color>
+		<color position="1.00" value="#002840" >
+		</color>
+	</gradient>
+	<gradient name="Aqua2" >
+		<color position="0.00" value="#CCFFFF" >
+		</color>
+		<color position="0.17" value="#0099FF" >
+		</color>
+		<color position="0.32" value="#0099CC" >
+		</color>
+		<color position="0.46" value="#0066CC" >
+		</color>
+		<color position="0.50" value="#000080" >
+		</color>
+		<color position="0.54" value="#008080" >
+		</color>
+		<color position="0.67" value="#00CC99" >
+		</color>
+		<color position="0.84" value="#00CCCC" >
+		</color>
+		<color position="1.00" value="#00FFFF" >
+		</color>
+	</gradient>
+	<gradient name="Beach" >
+		<color position="0.00" value="#FFFF80" >
+		</color>
+		<color position="0.18" value="#FFFF80" >
+		</color>
+		<color position="0.34" value="#FFA000" >
+		</color>
+		<color position="0.50" value="#6EC6FF" >
+		</color>
+		<color position="0.71" value="#0060A0" >
+		</color>
+		<color position="1.00" value="#0060A0" >
+		</color>
+	</gradient>
+	<gradient name="Black Gloss 1" >
+		<color position="0.00" value="#4C4C4C" >
+		</color>
+		<color position="0.12" value="#595959" >
+		</color>
+		<color position="0.25" value="#666666" >
+		</color>
+		<color position="0.39" value="#474747" >
+		</color>
+		<color position="0.50" value="#2C2C2C" >
+		</color>
+		<color position="0.51" value="#000000" >
+		</color>
+		<color position="0.60" value="#111111" >
+		</color>
+		<color position="0.76" value="#2B2B2B" >
+		</color>
+		<color position="0.91" value="#1C1C1C" >
+		</color>
+		<color position="1.00" value="#131313" >
+		</color>
+	</gradient>
+	<gradient name="Black Gloss 2" >
+		<color position="0.00" value="#959595" >
+		</color>
+		<color position="0.46" value="#0D0D0D" >
+		</color>
+		<color position="0.50" value="#010101" >
+		</color>
+		<color position="0.53" value="#0A0A0A" >
+		</color>
+		<color position="0.76" value="#4E4E4E" >
+		</color>
+		<color position="0.87" value="#383838" >
+		</color>
+		<color position="1.00" value="#1B1B1B" >
+		</color>
+	</gradient>
+	<gradient name="Black Gloss 3" >
+		<color position="0.00" value="#AEBCBF" >
+		</color>
+		<color position="0.50" value="#6E7774" >
+		</color>
+		<color position="0.51" value="#0A0E0A" >
+		</color>
+		<color position="1.00" value="#0A0809" >
+		</color>
+	</gradient>
+	<gradient name="Blue Glass" >
+		<color position="0.00" value="#02A8E4" >
+		</color>
+		<color position="0.06" value="#00ACE5" >
+		</color>
+		<color position="0.07" value="#47BDF0" >
+		</color>
+		<color position="0.30" value="#147BB6" >
+		</color>
+		<color position="0.53" value="#005081" >
+		</color>
+		<color position="0.96" value="#7295B5" >
+		</color>
+		<color position="1.00" value="#023661" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 1" >
+		<color position="0.00" value="#1E5799" >
+		</color>
+		<color position="0.50" value="#2989D8" >
+		</color>
+		<color position="0.51" value="#207CCA" >
+		</color>
+		<color position="1.00" value="#7DB9E8" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 2" >
+		<color position="0.00" value="#B8E1FC" >
+		</color>
+		<color position="0.10" value="#A9D2F3" >
+		</color>
+		<color position="0.25" value="#90BAE4" >
+		</color>
+		<color position="0.37" value="#90BCEA" >
+		</color>
+		<color position="0.50" value="#90BFF0" >
+		</color>
+		<color position="0.51" value="#6BA8E5" >
+		</color>
+		<color position="0.83" value="#A2DAF5" >
+		</color>
+		<color position="1.00" value="#BDF3FD" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 3" >
+		<color position="0.00" value="#3B679E" >
+		</color>
+		<color position="0.50" value="#2B88D9" >
+		</color>
+		<color position="0.51" value="#207CCA" >
+		</color>
+		<color position="1.00" value="#7DB9E8" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 4" >
+		<color position="0.00" value="#6DB3F2" >
+		</color>
+		<color position="0.50" value="#54A3EE" >
+		</color>
+		<color position="0.51" value="#3690F0" >
+		</color>
+		<color position="1.00" value="#1E69DE" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 5" >
+		<color position="0.00" value="#EBF1F6" >
+		</color>
+		<color position="0.50" value="#ABD3EE" >
+		</color>
+		<color position="0.51" value="#89C3EB" >
+		</color>
+		<color position="1.00" value="#D5EBFB" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 6" >
+		<color position="0.00" value="#CEDBE9" >
+		</color>
+		<color position="0.17" value="#AAC5DE" >
+		</color>
+		<color position="0.50" value="#6199C7" >
+		</color>
+		<color position="0.51" value="#3A84C3" >
+		</color>
+		<color position="0.59" value="#419AD6" >
+		</color>
+		<color position="0.71" value="#4BB8F0" >
+		</color>
+		<color position="0.84" value="#3A8BC2" >
+		</color>
+		<color position="1.00" value="#26558B" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 7" >
+		<color position="0.00" value="#B7DEED" >
+		</color>
+		<color position="0.50" value="#71CEEF" >
+		</color>
+		<color position="0.51" value="#21B4E2" >
+		</color>
+		<color position="1.00" value="#B7DEED" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 8" >
+		<color position="0.00" value="#E0F3FA" >
+		</color>
+		<color position="0.50" value="#D8F0FC" >
+		</color>
+		<color position="0.51" value="#B8E2F6" >
+		</color>
+		<color position="1.00" value="#B6DFFD" >
+		</color>
+	</gradient>
+	<gradient name="Blue Gloss 9" >
+		<color position="0.00" value="#D2DFED" >
+		</color>
+		<color position="0.26" value="#C8D7EB" >
+		</color>
+		<color position="0.51" value="#BED0EA" >
+		</color>
+		<color position="0.51" value="#A6C0E3" >
+		</color>
+		<color position="0.62" value="#AFC7E8" >
+		</color>
+		<color position="0.75" value="#BAD0EF" >
+		</color>
+		<color position="0.88" value="#99B5DB" >
+		</color>
+		<color position="1.00" value="#799BC8" >
+		</color>
+	</gradient>
+	<gradient name="Blue Pipe 1" >
+		<color position="0.00" value="#D0E4F7" >
+		</color>
+		<color position="0.24" value="#73B1E7" >
+		</color>
+		<color position="0.50" value="#0A77D5" >
+		</color>
+		<color position="0.79" value="#539FE1" >
+		</color>
+		<color position="1.00" value="#87BCEA" >
+		</color>
+	</gradient>
+	<gradient name="Blue Pipe 2" >
+		<color position="0.00" value="#B3DCED" >
+		</color>
+		<color position="0.50" value="#29B8E5" >
+		</color>
+		<color position="1.00" value="#BCE0EE" >
+		</color>
+	</gradient>
+	<gradient name="Brown Gloss" >
+		<color position="0.00" value="#F0B7A1" >
+		</color>
+		<color position="0.50" value="#8C3310" >
+		</color>
+		<color position="0.51" value="#752201" >
+		</color>
+		<color position="1.00" value="#BF6E4E" >
+		</color>
+	</gradient>
+	<gradient name="CalmWater" >
+		<color position="0.00" value="#CCCCFF" >
+		</color>
+		<color position="0.17" value="#9ACCFF" >
+		</color>
+		<color position="0.36" value="#9966FF" >
+		</color>
+		<color position="0.59" value="#CB9AFF" >
+		</color>
+		<color position="0.81" value="#A4CCFF" >
+		</color>
+		<color position="1.00" value="#CCCCFF" >
+		</color>
+	</gradient>
+	<gradient name="Fire" >
+		<color position="0.00" value="#FFF200" >
+		</color>
+		<color position="0.72" value="#F30301" >
+		</color>
+		<color position="1.00" value="#4F0808" >
+		</color>
+	</gradient>
+	<gradient name="Fog" >
+		<color position="0.00" value="#8488C4" >
+		</color>
+		<color position="0.53" value="#D4DEFF" >
+		</color>
+		<color position="0.83" value="#D4DEFF" >
+		</color>
+		<color position="1.00" value="#96AB94" >
+		</color>
+	</gradient>
+	<gradient name="Glossy" >
+		<color position="0.00" value="#FFFFFF" >
+		</color>
+		<color position="0.13" value="#FFFFFF" >
+		</color>
+		<color position="0.29" value="#FF90A0" >
+		</color>
+		<color position="0.45" value="#F05070" >
+		</color>
+		<color position="0.71" value="#C02040" >
+		</color>
+		<color position="1.00" value="#C02040" >
+		</color>
+	</gradient>
+	<gradient name="Green Gloss 1" >
+		<color position="0.00" value="#B4DDB4" >
+		</color>
+		<color position="0.17" value="#83C783" >
+		</color>
+		<color position="0.33" value="#52B152" >
+		</color>
+		<color position="0.67" value="#008A00" >
+		</color>
+		<color position="0.83" value="#005700" >
+		</color>
+		<color position="1.00" value="#002400" >
+		</color>
+	</gradient>
+	<gradient name="Green Gloss 2" >
+		<color position="0.00" value="#B4E391" >
+		</color>
+		<color position="0.50" value="#61C419" >
+		</color>
+		<color position="1.00" value="#B4E391" >
+		</color>
+	</gradient>
+	<gradient name="Green Gloss 3" >
+		<color position="0.00" value="#BFD255" >
+		</color>
+		<color position="0.50" value="#8EB92A" >
+		</color>
+		<color position="0.51" value="#72AA00" >
+		</color>
+		<color position="1.00" value="#9ECB2D" >
+		</color>
+	</gradient>
+	<gradient name="Grey Gloss" >
+		<color position="0.00" value="#E2E2E2" >
+		</color>
+		<color position="0.50" value="#DBDBDB" >
+		</color>
+		<color position="0.51" value="#D1D1D1" >
+		</color>
+		<color position="1.00" value="#FEFEFE" >
+		</color>
+	</gradient>
+	<gradient name="Grey Pipe" >
+		<color position="0.00" value="#F5F6F6" >
+		</color>
+		<color position="0.21" value="#DBDCE2" >
+		</color>
+		<color position="0.49" value="#B8BAC6" >
+		</color>
+		<color position="0.80" value="#DDDFE3" >
+		</color>
+		<color position="1.00" value="#F5F6F6" >
+		</color>
+	</gradient>
+	<gradient name="Ice" >
+		<color position="0.00" value="#FFFFFF" >
+		</color>
+		<color position="0.25" value="#FFFFFF" >
+		</color>
+		<color position="0.50" value="#00C0FF" >
+		</color>
+		<color position="0.75" value="#1052A8" >
+		</color>
+		<color position="1.00" value="#1052A8" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Sunset" >
+		<color position="0.00" value="#F8B763" >
+		</color>
+		<color position="0.18" value="#F2D792" >
+		</color>
+		<color position="0.29" value="#FC8D21" >
+		</color>
+		<color position="0.39" value="#ED3533" >
+		</color>
+		<color position="0.48" value="#C03E3C" >
+		</color>
+		<color position="0.55" value="#872F3B" >
+		</color>
+		<color position="0.66" value="#304C7B" >
+		</color>
+		<color position="0.71" value="#5E304A" >
+		</color>
+		<color position="0.91" value="#AF4A4E" >
+		</color>
+		<color position="1.00" value="#DE6E49" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Early Sunset" >
+		<color position="0.00" value="#000082" >
+		</color>
+		<color position="0.34" value="#7A0085" >
+		</color>
+		<color position="0.60" value="#AA006E" >
+		</color>
+		<color position="0.87" value="#FF0000" >
+		</color>
+		<color position="1.00" value="#FF7E00" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Late Sunset" >
+		<color position="0.00" value="#000000" >
+		</color>
+		<color position="0.20" value="#1A0040" >
+		</color>
+		<color position="0.45" value="#2A0040" >
+		</color>
+		<color position="0.74" value="#760040" >
+		</color>
+		<color position="0.82" value="#BE3722" >
+		</color>
+		<color position="1.00" value="#FFBF00" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Nightfall" >
+		<color position="0.00" value="#000000" >
+		</color>
+		<color position="0.50" value="#1016A6" >
+		</color>
+		<color position="0.70" value="#1016A6" >
+		</color>
+		<color position="0.86" value="#6E06D4" >
+		</color>
+		<color position="1.00" value="#8B3C93" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Daybreak" >
+		<color position="0.00" value="#5E9EFF" >
+		</color>
+		<color position="0.50" value="#98C8F9" >
+		</color>
+		<color position="1.00" value="#FFEBFA" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Horizon" >
+		<color position="0.00" value="#DAEAF4" >
+		</color>
+		<color position="0.13" value="#7690B9" >
+		</color>
+		<color position="0.18" value="#83A6C2" >
+		</color>
+		<color position="0.52" value="#FFFFFF" >
+		</color>
+		<color position="0.58" value="#81312E" >
+		</color>
+		<color position="0.71" value="#BB4F4C" >
+		</color>
+		<color position="0.94" value="#E9D8D2" >
+		</color>
+		<color position="1.00" value="#582A20" >
+		</color>
+	</gradient>
+	<gradient name="Landscape Desert" >
+		<color position="0.00" value="#FC9FC9" >
+		</color>
+		<color position="0.13" value="#F8B049" >
+		</color>
+		<color position="0.19" value="#F8B049" >
+		</color>
+		<color position="0.63" value="#FEE6F1" >
+		</color>
+		<color position="0.69" value="#C60A4B" >
+		</color>
+		<color position="0.81" value="#B74482" >
+		</color>
+		<color position="1.00" value="#F8B049" >
+		</color>
+	</gradient>
+	<gradient name="Lavender" >
+		<color position="0.00" value="#D8CDE9" >
+		</color>
+		<color position="0.50" value="#8F7EAC" >
+		</color>
+		<color position="1.00" value="#463E52" >
+		</color>
+	</gradient>
+	<gradient name="Mahogany" >
+		<color position="0.00" value="#D6B29C" >
+		</color>
+		<color position="0.50" value="#BE7C4C" >
+		</color>
+		<color position="0.75" value="#924B21" >
+		</color>
+		<color position="1.00" value="#683113" >
+		</color>
+	</gradient>
+	<gradient name="Moss" >
+		<color position="0.00" value="#DDEBCF" >
+		</color>
+		<color position="0.50" value="#A2BC76" >
+		</color>
+		<color position="1.00" value="#156B13" >
+		</color>
+	</gradient>
+	<gradient name="Metal Brass" >
+		<color position="0.00" value="#845700" >
+		</color>
+		<color position="0.14" value="#FDA600" >
+		</color>
+		<color position="0.28" value="#845700" >
+		</color>
+		<color position="0.42" value="#FDA600" >
+		</color>
+		<color position="0.58" value="#845700" >
+		</color>
+		<color position="0.72" value="#FDA600" >
+		</color>
+		<color position="0.87" value="#845700" >
+		</color>
+		<color position="1.00" value="#FDA600" >
+		</color>
+	</gradient>
+	<gradient name="Metal Brass2" >
+		<color position="0.00" value="#755927" >
+		</color>
+		<color position="0.03" value="#78541A" >
+		</color>
+		<color position="0.07" value="#886930" >
+		</color>
+		<color position="0.14" value="#705526" >
+		</color>
+		<color position="0.20" value="#978344" >
+		</color>
+		<color position="0.28" value="#FFFFC2" >
+		</color>
+		<color position="0.39" value="#A08D52" >
+		</color>
+		<color position="0.47" value="#7E6E30" >
+		</color>
+		<color position="0.57" value="#6B5722" >
+		</color>
+		<color position="0.68" value="#927030" >
+		</color>
+		<color position="0.75" value="#927030" >
+		</color>
+		<color position="0.85" value="#D8B967" >
+		</color>
+		<color position="0.93" value="#FFF3BF" >
+		</color>
+		<color position="1.00" value="#958143" >
+		</color>
+	</gradient>
+	<gradient name="Metal Bronze" >
+		<color position="0.00" value="#FEEEB0" >
+		</color>
+		<color position="0.39" value="#E4CF87" >
+		</color>
+		<color position="1.00" value="#C5AA57" >
+		</color>
+	</gradient>
+	<gradient name="Metal Copper" >
+		<color position="0.00" value="#A06C40" >
+		</color>
+		<color position="0.34" value="#A06C40" >
+		</color>
+		<color position="0.50" value="#FF8000" >
+		</color>
+		<color position="0.66" value="#FFFFFF" >
+		</color>
+		<color position="1.00" value="#FFFFFF" >
+		</color>
+	</gradient>
+	<gradient name="Metal Copper2" >
+		<color position="0.00" value="#A06C40" >
+		</color>
+		<color position="0.17" value="#A06C40" >
+		</color>
+		<color position="0.33" value="#FF8000" >
+		</color>
+		<color position="0.50" value="#FFFFFF" >
+		</color>
+		<color position="0.67" value="#FF8000" >
+		</color>
+		<color position="0.83" value="#A06C40" >
+		</color>
+		<color position="1.00" value="#A06C40" >
+		</color>
+	</gradient>
+	<gradient name="Metal Gold" >
+		<color position="0.00" value="#E6DCAC" >
+		</color>
+		<color position="0.12" value="#E6D688" >
+		</color>
+		<color position="0.30" value="#C8AD4E" >
+		</color>
+		<color position="0.45" value="#E5D688" >
+		</color>
+		<color position="0.77" value="#C8AE50" >
+		</color>
+		<color position="1.00" value="#E5DBAA" >
+		</color>
+	</gradient>
+	<gradient name="Metal Gold2" >
+		<color position="0.00" value="#FAE3AC" >
+		</color>
+		<color position="0.13" value="#BE932B" >
+		</color>
+		<color position="0.63" value="#FAE3AD" >
+		</color>
+		<color position="0.67" value="#BD922D" >
+		</color>
+		<color position="0.69" value="#845F18" >
+		</color>
+		<color position="0.79" value="#977A37" >
+		</color>
+		<color position="1.00" value="#FAE3B7" >
+		</color>
+	</gradient>
+	<gradient name="Metal Chrome" >
+		<color position="0.00" value="#FEFEFE" >
+		</color>
+		<color position="0.16" value="#262626" >
+		</color>
+		<color position="0.18" value="#FDFDFD" >
+		</color>
+		<color position="0.42" value="#656565" >
+		</color>
+		<color position="0.54" value="#CFCFCF" >
+		</color>
+		<color position="0.66" value="#CBCBCB" >
+		</color>
+		<color position="0.76" value="#252525" >
+		</color>
+		<color position="0.79" value="#FDFDFD" >
+		</color>
+		<color position="1.00" value="#818181" >
+		</color>
+	</gradient>
+	<gradient name="Metal Chrome2" >
+		<color position="0.00" value="#CBCBCB" >
+		</color>
+		<color position="0.13" value="#5F5F5F" >
+		</color>
+		<color position="0.21" value="#5F5F5F" >
+		</color>
+		<color position="0.61" value="#FFFFFF" >
+		</color>
+		<color position="0.63" value="#EFEFEF" >
+		</color>
+		<color position="0.69" value="#2B2B2B" >
+		</color>
+		<color position="1.00" value="#EAEAEA" >
+		</color>
+	</gradient>
+	<gradient name="Metal Silver" >
+		<color position="0.00" value="#FFFFFF" >
+		</color>
+		<color position="0.32" value="#7E8597" >
+		</color>
+		<color position="0.47" value="#E4E4E4" >
+		</color>
+		<color position="0.85" value="#7E8596" >
+		</color>
+		<color position="1.00" value="#E4E4E4" >
+		</color>
+	</gradient>
+	<gradient name="Metallic" >
+		<color position="0.00" value="#CCCCCC" >
+		</color>
+		<color position="0.50" value="#EEEEEE" >
+		</color>
+		<color position="0.51" value="#EEEEEE" >
+		</color>
+		<color position="1.00" value="#CCCCCC" >
+		</color>
+	</gradient>
+	<gradient name="Neon" >
+		<color position="0.00" value="#D2FF52" >
+		</color>
+		<color position="1.00" value="#91E842" >
+		</color>
+	</gradient>
+	<gradient name="Ocean" >
+		<color position="0.00" value="#03D4A8" >
+		</color>
+		<color position="0.25" value="#1FD6DC" >
+		</color>
+		<color position="1.00" value="#005CBF" >
+		</color>
+	</gradient>
+	<gradient name="Ocean2" >
+		<color position="0.00" value="#5878B2" >
+		</color>
+		<color position="0.22" value="#869FC8" >
+		</color>
+		<color position="0.52" value="#008080" >
+		</color>
+		<color position="0.80" value="#0ADAD8" >
+		</color>
+		<color position="1.00" value="#5878B2" >
+		</color>
+	</gradient>
+	<gradient name="Orange 3D" >
+		<color position="0.00" value="#FCEABB" >
+		</color>
+		<color position="0.50" value="#FCCD4D" >
+		</color>
+		<color position="0.51" value="#F8B500" >
+		</color>
+		<color position="1.00" value="#FBDF93" >
+		</color>
+	</gradient>
+	<gradient name="Orange Gloss" >
+		<color position="0.00" value="#FFB76B" >
+		</color>
+		<color position="0.50" value="#FFA73D" >
+		</color>
+		<color position="0.51" value="#FF7C00" >
+		</color>
+		<color position="1.00" value="#FF7F04" >
+		</color>
+	</gradient>
+	<gradient name="Parchment" >
+		<color position="0.00" value="#FFEFD1" >
+		</color>
+		<color position="0.55" value="#F3ECD4" >
+		</color>
+		<color position="0.75" value="#E6DEC4" >
+		</color>
+		<color position="1.00" value="#D1C39F" >
+		</color>
+	</gradient>
+	<gradient name="Peacock" >
+		<color position="0.00" value="#3399FF" >
+		</color>
+		<color position="0.16" value="#00CCCC" >
+		</color>
+		<color position="0.46" value="#969AFE" >
+		</color>
+		<color position="0.59" value="#336997" >
+		</color>
+		<color position="0.70" value="#323DC1" >
+		</color>
+		<color position="0.81" value="#1170FE" >
+		</color>
+		<color position="1.00" value="#006699" >
+		</color>
+	</gradient>
+	<gradient name="Pink 1" >
+		<color position="0.00" value="#FF5DB1" >
+		</color>
+		<color position="1.00" value="#EF017C" >
+		</color>
+	</gradient>
+	<gradient name="Pink 2" >
+		<color position="0.00" value="#E570E7" >
+		</color>
+		<color position="0.47" value="#C85EC7" >
+		</color>
+		<color position="1.00" value="#A849A3" >
+		</color>
+	</gradient>
+	<gradient name="Pink 3" >
+		<color position="0.00" value="#CB60B3" >
+		</color>
+		<color position="0.50" value="#AD1283" >
+		</color>
+		<color position="1.00" value="#DE47AC" >
+		</color>
+	</gradient>
+	<gradient name="Pink Gloss 1" >
+		<color position="0.00" value="#FCECFC" >
+		</color>
+		<color position="0.50" value="#FBA6E1" >
+		</color>
+		<color position="0.51" value="#FD89D7" >
+		</color>
+		<color position="1.00" value="#FF7CD8" >
+		</color>
+	</gradient>
+	<gradient name="Pink Gloss 2" >
+		<color position="0.00" value="#CB60B3" >
+		</color>
+		<color position="0.50" value="#C146A1" >
+		</color>
+		<color position="0.51" value="#A80077" >
+		</color>
+		<color position="1.00" value="#DB36A4" >
+		</color>
+	</gradient>
+	<gradient name="Rainbow" >
+		<color position="0.00" value="#FF3399" >
+		</color>
+		<color position="0.23" value="#FF6633" >
+		</color>
+		<color position="0.48" value="#FFF802" >
+		</color>
+		<color position="0.80" value="#04A396" >
+		</color>
+		<color position="1.00" value="#3366FF" >
+		</color>
+	</gradient>
+	<gradient name="Rainbow2" >
+		<color position="0.00" value="#FF0000" >
+		</color>
+		<color position="0.14" value="#FF8000" >
+		</color>
+		<color position="0.29" value="#FFFF00" >
+		</color>
+		<color position="0.43" value="#80FF00" >
+		</color>
+		<color position="0.57" value="#00FF80" >
+		</color>
+		<color position="0.71" value="#00FFFF" >
+		</color>
+		<color position="0.86" value="#0080FF" >
+		</color>
+		<color position="1.00" value="#0000FF" >
+		</color>
+	</gradient>
+	<gradient name="Rainbow Alternative" >
+		<color position="0.00" value="#EA8711" >
+		</color>
+		<color position="0.25" value="#D96363" >
+		</color>
+		<color position="0.50" value="#73A6DF" >
+		</color>
+		<color position="0.75" value="#9085FB" >
+		</color>
+		<color position="1.00" value="#52CA79" >
+		</color>
+	</gradient>
+	<gradient name="Rainbow Pastel" >
+		<color position="0.00" value="#FE91FF" >
+		</color>
+		<color position="0.14" value="#FF9191" >
+		</color>
+		<color position="0.28" value="#FFD291" >
+		</color>
+		<color position="0.42" value="#FFFF91" >
+		</color>
+		<color position="0.56" value="#91FF91" >
+		</color>
+		<color position="0.72" value="#91FFFF" >
+		</color>
+		<color position="0.87" value="#9191FF" >
+		</color>
+		<color position="1.00" value="#FF91FF" >
+		</color>
+	</gradient>
+	<gradient name="Red Gloss 1" >
+		<color position="0.00" value="#F85032" >
+		</color>
+		<color position="0.50" value="#F16F5C" >
+		</color>
+		<color position="0.51" value="#F6290C" >
+		</color>
+		<color position="0.71" value="#F02F17" >
+		</color>
+		<color position="1.00" value="#E73827" >
+		</color>
+	</gradient>
+	<gradient name="Red Gloss 2" >
+		<color position="0.00" value="#FECCB1" >
+		</color>
+		<color position="0.50" value="#F17432" >
+		</color>
+		<color position="0.51" value="#EA5507" >
+		</color>
+		<color position="1.00" value="#FB955E" >
+		</color>
+	</gradient>
+	<gradient name="Red Gloss 3" >
+		<color position="0.00" value="#EFC5CA" >
+		</color>
+		<color position="0.50" value="#D24B5A" >
+		</color>
+		<color position="0.51" value="#BA2737" >
+		</color>
+		<color position="1.00" value="#F18E99" >
+		</color>
+	</gradient>
+	<gradient name="Red Gloss 4" >
+		<color position="0.00" value="#F3C5BD" >
+		</color>
+		<color position="0.50" value="#E86C57" >
+		</color>
+		<color position="0.51" value="#EA2803" >
+		</color>
+		<color position="0.75" value="#FF6600" >
+		</color>
+		<color position="1.00" value="#C72200" >
+		</color>
+	</gradient>
+	<gradient name="Red Gloss 5" >
+		<color position="0.00" value="#EC9D95" >
+		</color>
+		<color position="0.50" value="#C93F27" >
+		</color>
+		<color position="0.51" value="#AF301F" >
+		</color>
+		<color position="1.00" value="#D87036" >
+		</color>
+	</gradient>
+	<gradient name="Red Green" >
+		<color position="0.00" value="#FFBBBB" >
+		</color>
+		<color position="0.50" value="#FFFFDD" >
+		</color>
+		<color position="0.51" value="#FFFFDD" >
+		</color>
+		<color position="1.00" value="#BBFFBB" >
+		</color>
+	</gradient>
+	<gradient name="Sapphire" >
+		<color position="0.00" value="#000183" >
+		</color>
+		<color position="0.14" value="#0046FE" >
+		</color>
+		<color position="0.28" value="#000183" >
+		</color>
+		<color position="0.42" value="#0046FE" >
+		</color>
+		<color position="0.56" value="#000183" >
+		</color>
+		<color position="0.70" value="#0046FE" >
+		</color>
+		<color position="0.84" value="#000183" >
+		</color>
+		<color position="1.00" value="#0046FE" >
+		</color>
+	</gradient>
+	<gradient name="Vista Background" >
+		<color position="0.00" value="#094A74" >
+		</color>
+		<color position="0.50" value="#20798C" >
+		</color>
+		<color position="1.00" value="#056F5A" >
+		</color>
+	</gradient>
+	<gradient name="Vista Header" >
+		<color position="0.00" value="#AEBFCA" >
+		</color>
+		<color position="0.02" value="#AEBFCA" >
+		</color>
+		<color position="0.05" value="#BCCDD7" >
+		</color>
+		<color position="0.07" value="#87B6C0" >
+		</color>
+		<color position="0.49" value="#408C9A" >
+		</color>
+		<color position="0.50" value="#146478" >
+		</color>
+		<color position="0.93" value="#54A1AA" >
+		</color>
+		<color position="0.95" value="#9AC6CF" >
+		</color>
+		<color position="1.00" value="#000000" >
+		</color>
+	</gradient>
+	<gradient name="Vista Status" >
+		<color position="0.00" value="#48494A" >
+		</color>
+		<color position="0.04" value="#A0A1A3" >
+		</color>
+		<color position="0.08" value="#757A7C" >
+		</color>
+		<color position="0.51" value="#33373D" >
+		</color>
+		<color position="0.51" value="#02070B" >
+		</color>
+		<color position="1.00" value="#000104" >
+		</color>
+	</gradient>
+	<gradient name="Wax 1" >
+		<color position="0.00" value="#FEFFE8" >
+		</color>
+		<color position="1.00" value="#D6DBBF" >
+		</color>
+	</gradient>
+	<gradient name="Wax 2" >
+		<color position="0.00" value="#FCFFF4" >
+		</color>
+		<color position="1.00" value="#E9E9CE" >
+		</color>
+	</gradient>
+	<gradient name="Wax 3" >
+		<color position="0.00" value="#FCFFF4" >
+		</color>
+		<color position="0.40" value="#DFE5D7" >
+		</color>
+		<color position="1.00" value="#B3BEAD" >
+		</color>
+	</gradient>
+	<gradient name="Wheat" >
+		<color position="0.00" value="#FBEAC7" >
+		</color>
+		<color position="0.16" value="#FEE7F1" >
+		</color>
+		<color position="0.37" value="#FAC77D" >
+		</color>
+		<color position="0.61" value="#FBAB7F" >
+		</color>
+		<color position="0.81" value="#FBD5A3" >
+		</color>
+		<color position="1.00" value="#FEE6EF" >
+		</color>
+	</gradient>
+	<gradient name="White Gloss 1" >
+		<color position="0.00" value="#FFFFFF" >
+		</color>
+		<color position="0.50" value="#F1F1F1" >
+		</color>
+		<color position="0.51" value="#E1E1E1" >
+		</color>
+		<color position="1.00" value="#F6F6F6" >
+		</color>
+	</gradient>
+	<gradient name="White Gloss 2" >
+		<color position="0.00" value="#F6F8F9" >
+		</color>
+		<color position="0.50" value="#E5EBEE" >
+		</color>
+		<color position="0.51" value="#D7DEE3" >
+		</color>
+		<color position="1.00" value="#F5F7F9" >
+		</color>
+	</gradient>
+	<gradient name="Yellow Pink" >
+		<color position="0.00" value="#FFFFCC" >
+		</color>
+		<color position="1.00" value="#FFCCFF" >
+		</color>
+	</gradient>
+</gradient_styles>

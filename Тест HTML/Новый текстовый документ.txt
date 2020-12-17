@@ -1,0 +1,7 @@
+http://webriz.ru/st/one/sozdanie-uchebnogo-testa-s-otvetami
+
+<button type="reset">Очистить форму</button>
+
+document.getElementById("").checked = true;
+
+https://www.w3schools.com/jsref/prop_radio_checked.asp

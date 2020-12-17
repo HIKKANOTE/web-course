@@ -1,0 +1,365 @@
+What's new in WYSIWYG Web Builder 9?
+
+General:
+- WYSIWYG Web Builder now supports the Ribbon interface! The Ribbon introduces many new ways to quickly change the appearance of the page and objects. With drop down galleries, quick access to frequently used options and much more functionality, only a click away...
+- Note the classic toolbars are still available, for users that prefer them. 
+- New feature: Added 'Global Replace' tool. This tool can be used to quickly change the color, font, url or filename for all objects (or a selection) on the page or entire website. 
+- New feature: Added 'Multi color gradient', "Pattern' and 'Texture' options to page background.
+- New feature: Gradient Manager now supports alpha values in colors for transparent colors.
+- New feature: Added the ability to create semitranparent backgrounds for most objects by setting the alpha value of background and gradient colors. 
+- New feature: Added the ability to set alpha value of box shadow.
+- New feature: Added Internet Explorer compatibility 'Chrome Frame' option. Users running Internet Explorer with Google Chrome Frame installed will automatically have pages that include this tag rendered by Chrome.
+- New feature: Added the possibility to select all objects above, below, left or right of the selected object. This can be useful if you want to insert a new object between other objects.
+- New feature: Added ‘Enable HTML beautifier’ option. Formats HTML so it looks better and is easier to read.
+- New feature: Added a shortcut menu item to insert Google Analytics code in the <head> section of the page.
+- New feature: Added a shortcut menu item to access Meta Tags so (new) users will be able to find this section more easily.
+- Improved: HTML options (Tools->Options->HTML) are now saved per project (instead of global). So each project can now have different settings.
+- Improved: JavaScript are now always in external (minified) file.
+
+Web Fonts (@font-face):
+- New feature: Added the ability to manually configure @font-face web fonts. Supports EOT, WOFF TTF and SVG fonts. 
+- New feature: Added support for 'Google Fonts'. If this option is enabled then the software will assume that all non web safe fonts you are using are Google Web Fonts and it will automatically generate a link to the font in the HTML code, so you do not have to do that manually.
+- New feature: Added the ability to configure fonts that will be display when 'Display web safe fonts only' is enabled. This can be useful in combination with @font-face so not all system fonts are visible.
+
+Timer Object:
+- New feature: Added 'Timer' object. Trigger actions based on timer events. For instance show or hide an object after X milli seconds. Timers can also start/stop other timers! All event actions are supported.
+
+jQuery UI:
+- Improved: Upgraded to latest version of jQuery and jQuery UI. The jQuery UI widgets have been redesigned to comply to the current documentation.
+- New feature: Added many new animations (easing) types to the jQuery Accordion.
+- New feature: Added 'Split button' mode to jQuery Button. Adds a drop down menu to the button.
+- New feature: Added 'Button set' mode to jQuery Button. Adds the ability to define multiple buttons to create a navigation menu.
+- New feature: Added Slide Left, Slide Right, Slide Up, Slide Down and Fade animations to jQuery Dialog.
+- New feature: jQuery Menu. Themeable (multi level) menu with mouse and keyboard interactions for navigation.
+- New feature: jQuery Spinner: Enhance a text input for entering numeric values, with up/down buttons and arrow key handling. 
+- New feature: jQuery ToolTip: Customizable, themeable tooltips, replacing native tooltips. The tooltip supports text formatting and can be assigned to any WWB object.
+
+Events:
+- New feature: Added 'Rotate' action to events. Now you can rotate any object (or even forms, layers, etc!)
+- New feature: Added 'Angle' property to Animate in events. Rotate objects with animation!
+- New feature: Added 'Timer start' and 'Timer stop' event actions.
+- New feature: Added 'Toggle' event action. Useful to toggle the visible state (show/hide) on an object. Triggering the event again will restore the previous state. Support animations.
+- New feature: Added 'Toggle Style' event action. Toggle between the current style and another style while animating the style changes. Triggering the event again will restore the previous style.
+
+CSS3 animations and transitions:
+- New feature: Added CSS3 animation and transition support! 
+- New feature: Added Animation Manager. This can be used to define animation (with key frames) for CSS3 animations. We have included many predefined animations to get you started.
+- New feature: Added support for animations and transitions in the Style Manager.
+- New feature: Added support for 'text-shadow' in the Style Manager. This allows you to add shadows to text (in supported browsers). For performance reasons the text will not be rendered with shadow in design view. You must preview or publish the page!
+
+CSS Menu:
+- Improved: completely redesigned the CSS Menu.
+- New feature: Added support for sub menus with many settings, for offsets, paddig, spacing and much more!
+- New feature: Added support for images (different images for normal, hover and items with sub menus)
+- New feature: Added the ability to set the background color/border for hte main menu and sub menus.
+
+Tab Menu:
+- Improved: Redesigned style properties window.
+- New feature: Added support for gradient colors.
+- New feature: Added support for box shadow to make tabs look more realistic.
+- New feature: Added hover animation. Includes the possibility to let the tab ‘jump’ up a few pixels up on mouse over.
+
+Slide Menu:
+- New feature: Header items can now also have a link.
+
+Menubar:
+- Improved: Menubar subitem background image is now applied to each menu item.
+
+Carousel:
+- Improved: It's now possible to use multiple Carousel objects per page.
+- New feature: You can now set the (horizontal and vertical) alignment and offsets of Carousel navigation buttons.
+- New feature: Added support for custom pagination images in Carousel.
+- New feature: Added 15 new page transition effects! Fade, Slide up/down, Drop, Puff, Fold etc! Basically this turns the Carousel into an advanced slide show that can display almost any object
+
+Forms:
+- Improved: You can now leave the email address empty if you do not want to send an email with the PHP form processor.
+- Improved: Editbox displays placeholder text (if value is empty).
+- Improved: Redesigned Advanced Form Processor properties dialog. Now uses tabs for a better overview of all the options.
+- Improved: Forms events can now also be used in combination with validation.
+- New feature: Added new option in form processor: 'Include IP address is form data'. 
+- New feature: Added support for PHP mailer in form processor. You can now select from 'mail', 'qmail', 'sendemail' and 'smtp'!
+- New feature: Added support for opacity in validation 'bubble' settings.
+- New feature: Added datalist (HTML5) support to combobox. A datalist is a a combination between a combobox and an editbox. The user can select data from a list or enter the value manually.
+- New feature: Added 'File Upload' template to Form Wizard. Implements a basic form processor to upload multiple files.
+
+Layer:
+- New feature: Added 'Anchored Layer' mode. This makes it possible to anchor one or more sides of the layer to the sides of the page (useful for strechable layers). 
+- New feature: Added 'Floating Layer' mode. This will make the layer 'float' instead of having a fixed position. 
+- New feature: Added 'Modal Layer' mode. This will position the layer on top of everything. Other items on the page will be disabled until you close the layer.
+
+SlideShow:
+- Improved: The 'Blocks' effect has been redesign and now uses the standard fx engine of jQuery.
+- New feature: Added the ability to display a caption on top or below the slideshow images. With many properties (font, color, opacity, display on hover only etc).
+- New feature: Added the ability to display navigation buttons on the slideshow (supports the same features as the Carousel object).
+- New feature: Added the ability to add a frame to the slideshow!
+- New feature: Added ‘Blast’ animation effect to slideshow. 
+- New feature: Added ‘Shuffle’ animation effect to slideshow. 
+- New feature: Added ‘Rotate’ animation effect to slideshow. 
+- New feature: Added ‘Rain’ animation effect to slideshow. 
+- New feature: Added ‘Swirl’ animation effect to slideshow. 
+- New feature: Added ‘Square’ animation effect to slideshow. 
+- New feature: Added ‘Bars'animation effect to slideshow. 
+- New feature: Added Random effect mode. If this mode is selected then each image will have a different animation.
+
+Site Search:
+- New feature: A 'search button' will automatically be added when you insert the 'Site Search' object. The button is a standalone button and can be completely customized.
+- New feature: Added the ability to display search results inside another object (for instance a layer on the same page).
+- New feature: Added 'Result count' option. Displays a (configurable) text on top of the search results with the result count.
+- New feature: Added the ability to specify the colors of the found search terms. You can set the text and highlight colors to make the keywords stand out.
+- New feature: Added option to display search results in another page. This can be useful if you want the results page to have the same design as the rest of your website.
+
+Links:
+- New feature: Added new option: 'URL parameters for internal links'. This makes it possible to specify parameters for internal links.
+- New feature: It's now possible to open links in a lightbox by using 'Open in a lightbox' as the target!
+- New feature: Added 'transition' option to hyperlink styles to animate color changes of links.
+- New feature: Added 'text-shadow' option to hyperlink styles.
+- Improved: Link to options have been renamed to 'External page / Web site' and 'Page in this project'. This may be less confusing for new users.
+- Improved: It's now also possible to link to folders.
+
+Publish:
+- New feature: Added the ability to rename files and folders in the built-in FTP client.
+- New feature: Added 'Show Password' option to publish settings.
+- Improved: Publish mode (Entire website, selected page only, etc) is now saved per project (instead of global).
+
+Login Tools:
+- New feature: Added session timeout option to the login tools. The user will be logged out automatically if the sessions is idle (based on the specified timeout).
+- New feature: Added the ability to edit the (text based!) database offline. The edit allows you downlaod, edit and reupload the database.
+
+Photo Gallery:
+- New feature: Added 'Polaroids are draggable' option to Photo Gallery. Added the ability to repositon the polaroids around the page.
+- New feature: Added 'Animation polaroids on page load'. Animates the polariods to a random position in the gallery.
+
+Roll Over Image
+- New feature: Added 3D rotation (CSS3) animation to Roll Over Image! Create 3D effects on your website. works on all modern browsers (FireFox, Safari, Chrome, IE10).
+- New feature: Added Bars (Horizontal/Vertical) animation.
+- New feature: Added Blast animation.
+- New feature: Added Blinds Horizontal/Vertical animation.
+- New feature: Added Blocks animation.
+- New feature: Added Clip Horizontal/Vertical animation.
+- New feature: Added Drop animation.
+- New feature: Added Fold animation.
+- New feature: Added Puff animation.
+- New feature: Added Rain animation.
+- New feature: Added Rotate animation.
+- New feature: Added Swirl animation.
+- New feature: Added Squares animation.
+- New feature: Added Track Mouse animation.
+
+Rollover Text:
+- New feature: Added 'alignment' to rollover text.
+- New feature: Added 'padding' property to rollover text (specifies padding from object's border)
+- New feature: Added 'spacing' property to rollover text (specifies spoacing between title, descripion and link)
+- New feature: Added 'link' styling to rollover text (font, color, style)
+- New feature: Added 6 amazing new CSS3 animations to Roll Over text. Let text fly in, spin, zoom and more
+
+News Feed Ticker:
+- New feature: Added 'spacing' to News Feed Ticker. Specifies spacing between items.
+- New feature: Added 'padding' to News Feed Ticker. Specifies padding between items and the border.
+- New feature: Added Facebook support to News Feed Ticker. Displays status, links and/or photos.
+
+Text:
+- Improved: Implemented workaround for 'justify' in combination with 'line height' and compatibility options.
+- Improved: Added 'Rotate' to the context menu.
+- New feature: Added the ability to use CSS3 transform rotation in text. This will publish the text object as standard text insetad of any image and use CSS3 rotation (for modern browsers!).
+- New feature: Added 'Do not encode HTML characters' option to the text object. This makes it possible to include (for example) PHP code in standard text!
+
+Master Frames:
+- New feature: Added border-radius and box-shadow options to Content Place Holder.
+
+Master Objects:
+- The "Master Page" object now called "Master Objects". Many users found the old name confusing because it actually embeds the objects of another page and not the page itself.
+
+Flash Video Player:
+- New feature: Added HTML5 support to Flash Video Player. Now the player should be compatible with all platforms! In HTML5 mode the player is simulates the look and feel of the flash player using HTML5, CSS3 and JavaScript!
+
+Content Management System:
+- New feature: Added default font style to CMS view. This will be used for all unstyled content.
+- New feature: Added session timeout option to CMS admin and Login Admin. So the admin session automatically timeouts after the specified time.
+- New feature: Added the abilty for admins to change the creator/owner of the page.
+- New feature: Added 'Enable Unicode Support' to CMS Admin and CMS View.
+- New feature: Added plugin support to CMS. The CMS is now extendable! 
+- New feature: Added CMS plugin: user manager
+- New feature: Added CMS plugin: comments
+- New feature: Added CMS plugin: discussion
+- New feature: Added CMS plugin: downloads
+- New feature: Added CMS plugin: faq
+- New feature: Added CMS plugin: file manager
+- New feature: Added CMS plugin: file manager plus
+- New feature: Added CMS plugin: form
+- New feature: Added CMS plugin: guestbook
+- New feature: Added CMS plugin: mailing list
+- New feature: Added CMS plugin: password
+- New feature: Added CMS plugin: photo album
+- New feature: Added CMS plugin: slideshow
+- New feature: Added CMS plugin: plugin manager
+- New feature: Added CMS plugin: poll
+- New feature: Added CMS plugin: tell-a-friend
+- New feature: Added CMS plugin: web shop (experimental)
+
+Shapes:
+- Improved: When a shape if flipped or mirrored the text no longer will be flipped/mirrored too. This is especially useful for callouts and text balloons. As this allows you to flipped/mirror the callout arrow to another sdie of the shape without affecting the text.
+- New featrue: Added more than 50 new shapes, including basic flow charts shapes.
+- New featrue: Added 'Elbow Connector' and 'Curved Connector' drawing tools (can be useful for drawing flow charts).
+- New feature: Basic shapes (retangle, ellipse, rounded corder) can now also be exported as CSS3!
+- New feature: Holding down the SHIFT key for the 'Line' will draw a straight line (horizontal or vertical).
+- New feature: Added new border styles to Shape/ClipArt/TextArt/Polygon/Curve: gradient, multi color gradient, pattern and texture. 
+- New feature: Added support for Rotate Left/ Rotate Right/Flip Horizontal/Flip Vertical to Polygon and Curve.
+- New feature: Added 15 new gradient styles to Polygon/Curve (previous there were only 5).
+- New feature: Added support for textures to polygon/curve.
+
+Images:
+- New feature: It's now possible to modify the image size in the property inspector while keep aspect ratio. For example changing the width will automatically update the height.
+- New feature: Added 12 'box shadows' frames (available for images and the photo gallery).	
+- New feature: Added new image effect: Transparent Gradient.
+- New feature: Added new image effect: Tilt Shift.
+- New feature: Added new image effect: Night Vision.
+- New feature: Added new image effect: Blue Print.
+- New feature: Added new image effect: Edge preserving blur.
+- New feature: Added new image effect: UrbanInk
+- New feature: Added new image effect: Droste Effect
+- New feature: Added new image effect: Holga
+- New feature: Added new image effect: Old Movie.
+- New feature: Added new image effect: Polaroid Stack.
+- New feature: Added 'Remove all effects' to the effect menu to quickly remove all applied effects.
+
+Ready-to-use-JavaScripts:
+- New feature: Added 'Pinterest Pin it' and 'Pinterest Follow' button scripts to Ready-to-use-JavaScripts.
+- New feature: Added 'Sound Cloud' button to Ready-to-use-JavaScripts.
+- New feature: Added 'Google Translate' widget to Ready-to-use-JavaScripts.
+- New feature: Added 'Internet Explorer redirect' widget to Ready-to-use-JavaScripts. Redirect the user to an optimized page for older versions of IE.
+
+OLE Object:
+- New feature: Added JPG and PNG output formats to OLE Object.
+
+Banner:
+- New feature: Banner can now be published as standard text with CSS3 markup instead of an image. Supports borders, (gradient) backgrounds, text shadow and text styling.
+
+Blog:
+- Improved: Blog is no longer displayed inside an inline frame, but it's now embedded in the page for better SEO.
+- New feature: Added 'padding' property to Blog object. Specifies the offset from between the border and text of a blog item.
+
+Error Reports:
+- New feature: Error reports will check for common errors in custom HTML code. For example: Scripts should not be placed at the start of the page or the use of HTML tags inside the body tag. It will also check for duplicated <html>, <head> and <body> tags in the Page HTML.
+- New feature: Error reports will display an error if the 'index' page has upper case characters ('Index' or 'INDEX' is invalid).
+- New feature: Error reports will display an error if a form is using 'mailto:', because it's unreliable. Consider using the built-in form processor instead.
+
+06/21/2013 - Version 9.0.1
+- Fixed: Error message in 'CMS Search' properties.
+- Fixed: Pressing 'Enter' in Extesion Manager search closes the window.
+- Fixed: Using the 'Site Search' object with external style may cause 'not responding' message.
+- Fixed: Highlight terms in Site Search does not work in combination with 'Show results in another object'
+- Fixed: Animation properties not saved for Tab Menu.
+- Fixed: Link styles do not work in jQuery Dialog.
+- Fixed: Error message in the properties of the 'Video on Vimeo' script.
+- Fixed: Problem with fade effect in SlideShow.
+- Fixed: Empty title tag results in invalid HTML.
+- Fixed: Slideshow frame does not get an unique file name.
+- Fixed: 'Border raduis' is missing in jQuery UI Themes.
+- Fixed: Problem with padding in News Feed Ticker.
+- Fixed: Using a large SVG font in the Web Fonts Manager may cause 'out of memory' error.
+- Fixed: Some third party extensions do not load.
+- Fixed: Tab Menu displays 'invalid filename' error in Error Reports.
+- Improved: The software will now display a 'Ribbon notice' on startup to make users aware of the menu/toolbar/ribbon switch.
+
+06/28/2013 - Version 9.0.2
+- Fixed: Table layout problem
+- Fixed: Tab order in link window.
+- Fixed: Border attribute in RSS Feed is not W3C compliant.
+- Fixed: Mega Menu does uses wrong text color for hover state.
+- Fixed: jQuery Dialog uses wrong text color for header.
+- Fixed: Color picker drop down does not set the focus to the selected text color.
+- Fixed: Implemented a workaround for Lightbox scripts that use 'rel' attribute (for HTML5 compliance). 
+- Fixed: Background textures and pattern have offset.
+- Fixed: Cannot use multiple tooltips per page.
+- Fixed: Font name is not initially selected.
+- Fixed: Ribbon color picker 'Select' command makes text editor lose focus.
+- Fixed: Border options do not trigger property dialog.
+- Fixed: Ribbon timing issues with contextual tabs (when using insert images and shapes).
+- Fixed: Transform transitions do not work in Chrome.
+- Improved: 'goto' is now also supported for Carousel effects. See the help for more details.
+- Improved: Object Manager refresh when using copy/paste.
+
+07/05/2013 - Version 9.0.3
+- Fixed: Font name not saved in 'Login Name' object.
+- Fixed: <label> tag ignored in HTML beautifier.
+- Fixed: Several CMS Plugin issues.
+- Fixed: Upgrade from WB8 CSS menu has wrong default values.
+- Fixed: Image crop selection problem when using both mosue and keyboard.
+- Fixed: Default font in CMS View is now off by default (change the text color if you want to activate it).
+- Fixed: PrettyPhoto lightbox is missing navigation.
+- Fixed: Asset manager does not update background images.
+
+07/19/2013 - Version 9.0.4
+- Fixed: CSS menu does not support popup window links.
+- Fixed: Image crop does not work when image is on position 0,0...
+- Fixed: Crash with nested layers.
+- Fixed: Path to stretched background image is wrong with shared folder.
+- Fixed: Modal layer display problem when hiding with Object Manager.
+
+08/16/2013 - Version 9.0.5
+- Fixed: Layer with gradient has border issue.
+- Fixed: Issue with Tab Menu Gradient Style not saved.
+- Fixed: Menu Bar with border property set to zero not saved.
+- Fixed: Full width floating layer bug.
+- Fixed: Problem with 'target' trigger in transitions.
+- Fixed: Added 'z-index' to non-modal jQuery Dialog.
+
+09/22/2013 - Version 9.1.0
+- Improved: Upgrading from older projects (WWB7 and older) uses less memory. 
+- Improved: Added mp4, webm and ogg filter to file selection dialog in HTML5 video player.
+- Improved: CMS plugins now use classes (cms_input, cms_select, cms_textarea) for styling.  (so the styles do not affect other content)
+- Improved: CMS plugins work with AJAX enabled.
+- Improved: If 'DisablePageManagementForUsers' is enabled then the plugin menu is hidden.
+- Improved: File open dialog for selecting projects now displays 'places bar'.
+- New feature: Added 'Center - Center' orientation to sticky layer.
+- New feature: Added 'Place Holder' option to TextArea
+- New feature: Added 'Max Length' option to TextArea
+- New feature: Added 'Tab Index' and 'Access Key' options to jQuery AutoComplete and jQuery DatePicker
+- New feature: Added 'FTP Manager' and 'JavaScript editor' icons to tools (if installed...)
+- New feature: It's now also possible to replace colors and fonts in Page Properties in the Global Replace tool.
+- New feature: Added the ability to specify a level for 'Synchronize with Site manager' in CSS Menu and Menubar. 
+- New feature: Added 'Show info' option to YouTube object. If disable then the player will not display information like the video title before the video starts playing.
+- New feature: Added 'Purchase WYSIWYG Web Builder online' button in Ribbon and menu (unregistered version only).
+- New feature: Added 'List style' option for TreeView mode in the SiteTree object.
+- New feature: Added a basic Lorum Ipsum Text generator to the text object! Available in the Ribbon and the context menu in text edit mode.
+
+10/14/2013 - Version 9.1.1
+- Improved: templates created with older versions (before wwb8) are now correctly loaded.
+- Improved: Removed 'TYPE=MyISAM' from built-in PHP form processor SQL. Deprecated in MySQL 5.0
+- Improved: Connection time (in Options->Publish & Preview) now also affects the FTP data connection.
+- Fixed: Changing options resets toolbar layout.
+- Fixed: Error in Lightbox code (photo gallery) with HTML5.
+
+10/21/2013 - Version 9.1.2
+- Fixed: Problem with Pretty Photo lightbox and HTML5.
+- New feature: Added new FTP engine option (Tools->Options->Publish & Preview). You can now switch between wininet or winsock. Select winsock if you have issues with publishing in Windows 8.1.
+
+11/11/2013 - Version 9.1.3
+- Improved: Added alpha transparency support to vista, glossy and glass gradient styles.
+- Improved: CSS menu preview supports gradients.
+- Improved: Photo Gallery thumbnail size in Property Inspector now also accepts custom sizes.
+- Fixed: Issue with News Feed Ticker when upgrading from WWB 8.5.7
+- Fixed: winsock ftp engine does not handle '125' response from server.
+- Fixed: Replaced &pos; with &#39; to make single quotes validate W3C.
+- Fixed: Polygon not displayed when using master frames.
+- Fixed: Layer right alignment does not work.
+
+12/12/2013 - Version 9.2.0
+- Fixed: Offset in layers with individual border styles.
+- Fixed: Problem with importing font-family with quotes in Style Manager.
+- Fixed: Problem with importing transparent background in Style Manager.
+- Improved: Alignment (left, center, right, top, middle, bottom) now takes grouped objects into account.
+- Improved: Multiple selections and grouped objects now also support 'snap to ruler guides'
+- Improved: Global Replace window is now resizable.
+- Improved: Upload multiple files with FTP Manager (Explore).
+- Improved: Added Drag & drop support to FTP Manager (Explore).
+- Improved: <style> no longer includes type="text/css" for HTML5 doctype.
+- Improved: <script> no longer includes type="text/javascript" for HTML5 doctype.
+- Improved: Added URI encoding to Site Search for better Unicode support.
+- Improved: F7 (spellchecker) now also works when not in edit mode. 
+- New feature: Added 'full screen mode' to the Slide Show. 
+- New feature: Added 'full width mode' to the Carousel (experimental). Demo: http://www.wysiwygwebbuilder.com/support/carousel/index.html
+- New feature: Added 'Font fine-tuning' option to the text object. This make it possible to 'fine-tune' fonts in steps of 0.1 pixels. This may help fix comptibility issues with some fonts that are rendered larger in some browsers.
+- New feature: Added new option to Carousel to use 'Rectangle' instead of 'Ellipse' for pagination.
+- New feature: Added the ability to do a global text replace in the Global Replace tool! This may be useful to replace text in menus and other objects.
+- New feature: Added the ability to globally rename IDs (in the Global Replace tool).

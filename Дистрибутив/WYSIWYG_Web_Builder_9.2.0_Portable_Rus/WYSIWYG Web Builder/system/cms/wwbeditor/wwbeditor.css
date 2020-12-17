@@ -1,0 +1,57 @@
+.wwbeditor-container
+{
+   display: inline-block;
+}
+.wwbeditor-toolbar
+{
+   border: 1px solid #999;
+   border-bottom: 0px none #999;
+   background-color: #F0F0F0;
+   width: 100%;
+}
+.wwbeditor-toolbar *
+{
+   vertical-align: middle;
+}
+.wwbeditor-toolbar img
+{
+   padding: 3px 3px 3px 3px;
+   cursor: pointer;
+   cursor: hand;
+}
+.wwbeditor-toolbar select
+{
+   border: 1px solid #999;
+   margin: 3px 3px 3px 3px;
+}
+.wwbeditor-content
+{
+   border: 1px solid #999;
+   font-size: 12pt;
+   padding: 0px;
+   font-family: 'Arial';
+   width: 100%;
+   background-color: #FFFFFF;
+}
+.wwbeditor-content p
+{
+   padding: 0;
+}
+.wwbeditor-color_picker 
+{
+   width: 144px;
+   position: absolute;
+   border: 1px solid #598FEF;
+   background-color: #EFEFEF;
+   padding: 2px;
+}
+.wwbeditor-color_picker_cell 
+{
+   height: 12px;
+   width: 12px;
+   border: 1px solid #000;
+   margin: 2px;
+   float: left;
+   cursor: pointer;
+   line-height: 12px;
+}

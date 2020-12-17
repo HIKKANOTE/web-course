@@ -1,0 +1,79 @@
+.ThemeBlackWhiteMenu, .ThemeBlackWhiteSubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeBlackWhiteMenuOuter {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+.ThemeBlackWhiteSubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 1px solid #000000;
+}
+.ThemeBlackWhiteMenu td {
+	padding: 3px 0px 3px 0px;
+}
+.ThemeBlackWhiteSubMenuTable {
+	color: #000000;
+	text-align: left;
+	background-color: #FFFFFF;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeBlackWhiteSubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeBlackWhiteMainItem, .ThemeBlackWhiteMainItemHover, .ThemeBlackWhiteMainItemActive, .ThemeBlackWhiteMenuItem, .ThemeBlackWhiteMenuItemHover, .ThemeBlackWhiteMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeBlackWhiteMainItemHover, .ThemeBlackWhiteMainItemActive {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeBlackWhiteMenuItemHover, .ThemeBlackWhiteMenuItemActive {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeBlackWhiteMenuFolderLeft, .ThemeBlackWhiteMenuFolderRight, .ThemeBlackWhiteMenuItemLeft, .ThemeBlackWhiteMenuItemRight {
+	padding: 3px 0px 3px 0px;
+}
+td.ThemeBlackWhiteMainFolderText, td.ThemeBlackWhiteMainItemText {
+	padding: 3px 5px 3px 5px;
+}
+.ThemeBlackWhiteMenuFolderText, .ThemeBlackWhiteMenuItemText {
+	padding: 3px 5px 3px 5px;
+}
+td.ThemeBlackWhiteMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeBlackWhiteMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #000000;
+}
+.ThemeBlackWhiteMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #000000;
+}

@@ -1,0 +1,79 @@
+.ThemeDarkGreyMenu, .ThemeDarkGreySubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeDarkGreyMenuOuter {
+	background-color: #535353;
+	border: 0;
+}
+.ThemeDarkGreySubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 0;
+}
+.ThemeDarkGreyMenu td {
+	padding: 4px 0px 4px 0px;
+}
+.ThemeDarkGreySubMenuTable {
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #808080;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeDarkGreySubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeDarkGreyMainItem, .ThemeDarkGreyMainItemHover, .ThemeDarkGreyMainItemActive, .ThemeDarkGreyMenuItem, .ThemeDarkGreyMenuItemHover, .ThemeDarkGreyMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeDarkGreyMainItemHover, .ThemeDarkGreyMainItemActive {
+	color: #FFFFFF;
+	background-color: #000000;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeDarkGreyMenuItemHover, .ThemeDarkGreyMenuItemActive {
+	color: #000000;
+	background-color: #C0C0C0;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeDarkGreyMenuFolderLeft, .ThemeDarkGreyMenuFolderRight, .ThemeDarkGreyMenuItemLeft, .ThemeDarkGreyMenuItemRight {
+	padding: 4px 0px 4px 0px;
+}
+td.ThemeDarkGreyMainFolderText, td.ThemeDarkGreyMainItemText {
+	padding: 4px 6px 4px 6px;
+}
+.ThemeDarkGreyMenuFolderText, .ThemeDarkGreyMenuItemText {
+	padding: 4px 6px 4px 6px;
+}
+td.ThemeDarkGreyMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeDarkGreyMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #FFFFFF;
+}
+.ThemeDarkGreyMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #FFFFFF;
+}

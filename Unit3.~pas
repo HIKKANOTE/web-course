@@ -1,0 +1,44 @@
+unit Unit3;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, jpeg, ExtCtrls, Buttons, ComCtrls, ComObj;
+
+type
+  TLekcia1 = class(TForm)
+    Image1: TImage;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    RichEdit1: TRichEdit;
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Lekcia1: TLekcia1;
+
+implementation
+
+uses Unit2, Unit1;
+
+{$R *.dfm}
+
+procedure TLekcia1.BitBtn1Click(Sender: TObject);
+begin
+Form2.Show;
+Lekcia1.Hide;
+end;
+
+procedure TLekcia1.BitBtn2Click(Sender: TObject);
+begin
+Form1.Show;
+Lekcia1.Hide;
+end;
+
+end.

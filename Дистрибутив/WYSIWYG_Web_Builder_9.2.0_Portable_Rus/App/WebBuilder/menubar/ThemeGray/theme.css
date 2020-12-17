@@ -1,0 +1,103 @@
+.ThemeGrayMenu, .ThemeGraySubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeGrayMenuOuter {
+	background-color: #5F5F5F;
+	border: 1px solid #5F5F5F;
+}
+.ThemeGraySubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 1px outset #9C9A9C;
+}
+.ThemeGrayMenu td {
+	padding: 4px 0px 4px 0px;
+}
+.ThemeGraySubMenuTable {
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #5F5F5F;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	border-collapse: separate;
+	opacity: 0.9;
+	filter: Alpha(style=0,opacity=90);
+}
+.ThemeGraySubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeGrayMainItem, .ThemeGrayMainItemHover, .ThemeGrayMainItemActive, .ThemeGrayMenuItem, .ThemeGrayMenuItemHover, .ThemeGrayMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeGrayMainItemHover, .ThemeGrayMainItemActive {
+	color: #FFFFFF;
+	background-color: #444444;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeGrayMenuItemHover, .ThemeGrayMenuItemActive {
+	color: #FFFFFF;
+	background-color: #444444;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeGrayMainItem .ThemeGrayMainItemText, .ThemeGrayMainItem .ThemeGrayMainFolderText {
+	border: 1px solid transparent;
+}
+.ThemeGrayMainItemHover .ThemeGrayMainItemText, .ThemeGrayMainItemActive .ThemeGrayMainItemText, .ThemeGrayMainItemHover .ThemeGrayMainFolderText, .ThemeGrayMainItemActive .ThemeGrayMainFolderText {
+	border: 1px solid #444444;
+}
+.ThemeGrayMenuFolderLeft, .ThemeGrayMenuFolderRight, .ThemeGrayMenuItemLeft, .ThemeGrayMenuItemRight {
+	padding: 4px 0px 4px 0px;
+}
+td.ThemeGrayMainFolderText, td.ThemeGrayMainItemText {
+	padding: 4px 10px 4px 10px;
+}
+.ThemeGrayMenuFolderText, .ThemeGrayMenuItemText {
+	padding: 4px 10px 4px 10px;
+}
+.ThemeGrayMenuItem .ThemeGrayMenuFolderText, .ThemeGrayMenuItem .ThemeGrayMenuItemText {
+	border: 1px solid transparent;
+}
+.ThemeGrayMenuItemHover .ThemeGrayMenuFolderText, .ThemeGrayMenuItemActive .ThemeGrayMenuFolderText, .ThemeGrayMenuItemHover .ThemeGrayMenuItemText, .ThemeGrayMenuItemActive .ThemeGrayMenuItemText {
+	border: 1px solid #A5A3A5;
+}
+td.ThemeGrayMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeGrayMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #FFFFFF;
+}
+.ThemeGrayMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #FFFFFF;
+}
+.ThemeGrayMenuItem img.seq1 {
+	display: inline;
+}
+.ThemeGrayMenuItemHover seq2, .ThemeGrayMenuItemActive seq2 {
+	display: inline;
+}
+.ThemeGrayMenuItem .seq2, .ThemeGrayMenuItemHover .seq1, .ThemeGrayMenuItemActive .seq1 {
+	display: none;
+}

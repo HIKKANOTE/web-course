@@ -1,0 +1,108 @@
+object Form29: TForm29
+  Left = 192
+  Top = 103
+  Caption = #1057#1077#1088#1074#1077#1088
+  ClientHeight = 216
+  ClientWidth = 255
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 41
+    Width = 255
+    Height = 14
+    Align = alTop
+    Alignment = taCenter
+    Caption = #1055#1086#1083#1100#1079#1086#1074#1072#1090#1077#1083#1080':'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Arial'
+    Font.Style = [fsBold, fsUnderline]
+    ParentFont = False
+    ExplicitLeft = 1
+    ExplicitTop = 1
+    ExplicitWidth = 82
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 255
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    object Button1: TButton
+      Left = 8
+      Top = 10
+      Width = 75
+      Height = 25
+      Caption = #1047#1072#1087#1091#1089#1082
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 89
+      Top = 10
+      Width = 75
+      Height = 25
+      Caption = #1057#1090#1086#1087
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 170
+      Top = 10
+      Width = 75
+      Height = 25
+      Caption = #1042#1099#1093#1086#1076
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      OnClick = Button3Click
+    end
+  end
+  object ListBox1: TListBox
+    Left = 0
+    Top = 55
+    Width = 255
+    Height = 161
+    Align = alClient
+    ItemHeight = 13
+    TabOrder = 1
+    ExplicitTop = 41
+    ExplicitHeight = 175
+  end
+  object ServerSocket1: TServerSocket
+    Active = False
+    Port = 0
+    ServerType = stNonBlocking
+    OnAccept = ServerSocket1ClientDisconnect
+    OnClientDisconnect = ServerSocket1ClientDisconnect
+    OnClientRead = ServerSocket1ClientRead
+    Left = 168
+    Top = 104
+  end
+end

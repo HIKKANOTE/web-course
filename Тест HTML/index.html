@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <meta charset='utf-8'>
+  <head></head>
+  
+  <body>
+    <input onclick="vopr1true()" type="radio">Туда
+    <br>
+    <input type="radio">сюда
+    <hr>
+    <input type="radio">вариант 1
+    <br>
+    <input type="radio" onclick="vopr2true();">вариант 2
+    <br>
+    <input type="radio">вариант 3
+    <hr>
+    <button onclick="otvety();">Посмотреть результат</button>
+    <div id="otvety" style="display:none">
+      <div id="1" style="background:#f00">1-неправильно</div>
+      <div id="2" style="background:#f00">2-неправильно</div>
+    </div>
+    <script>
+      function vopr1true() {
+        document.getElementById("1").style.background = "#0f0";
+        document.getElementById("1").innerHTML = "1-правильно";
+      }
+
+      function vopr2true() {
+        document.getElementById("2").style.background = "#0f0";
+        document.getElementById("2").innerHTML = "2-правильно";
+      }
+
+      function otvety() {
+        document.getElementById("otvety").style.display = "block"
+      }
+    </script>
+  </body>
+
+</html>

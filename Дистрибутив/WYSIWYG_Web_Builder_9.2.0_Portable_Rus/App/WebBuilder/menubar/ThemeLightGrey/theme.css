@@ -1,0 +1,128 @@
+.ThemeLightGreyMenu, .ThemeLightGreySubMenuTable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.ThemeLightGreySubMenu {
+	z-index: 0;
+	position: absolute;
+	visibility: hidden;
+	display: block;
+	overflow: hidden;
+	border: 0;
+	background-color: inherit;
+}
+.ThemeLightGreySubMenuShadow {
+	z-index: -1;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 100%;
+	height: 500em;
+	background-color: black;
+	opacity: 0.5;
+	border: 0;
+	margin: 0;
+}
+.ThemeLightGreySubMenuBorder {
+	border: 1px solid #9C9A9C;
+	background-color: #F7F3F7;
+	padding: 1px;
+	margin: 0px 3px 3px 0px;
+}
+.ThemeLightGreySubMenuTable {
+	border-collapse: separate;
+}
+.ThemeLightGreyMenuItem, .ThemeLightGreyMenuItemHover, .ThemeLightGreyMenuItemActive {
+	cursor: pointer;
+	white-space: nowrap;
+}
+.ThemeLightGreyMainItem, .ThemeLightGreyMenuItem {
+	background-color: #F7F3F7;
+	white-space: nowrap;
+}
+.ThemeLightGreyMainItemHover, .ThemeLightGreyMainItemActive, .ThemeLightGreyMenuItemHover, .ThemeLightGreyMenuItemActive {
+	background-color: #C6C6C3;
+	white-space: nowrap;
+}
+.ThemeLightGreyMainFolderLeft, .ThemeLightGreyMainItemLeft {
+	padding: 3px 0px 3px 0px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMainFolderText, .ThemeLightGreyMainItemText {
+	padding: 3px 3px 3px 5px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMainItemRight, .ThemeLightGreyMainFolderRight {
+	padding: 3px 0px 3px 0px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMainItemHover .ThemeLightGreyMainFolderLeft, .ThemeLightGreyMainItemActive .ThemeLightGreyMainFolderLeft, .ThemeLightGreyMainItemHover .ThemeLightGreyMainItemLeft, .ThemeLightGreyMainItemActive .ThemeLightGreyMainItemLeft, .ThemeLightGreyMainItemHover .ThemeLightGreyMainFolderText, .ThemeLightGreyMainItemActive .ThemeLightGreyMainFolderText, .ThemeLightGreyMainItemHover .ThemeLightGreyMainItemText, .ThemeLightGreyMainItemActive .ThemeLightGreyMainItemText, .ThemeLightGreyMainItemHover .ThemeLightGreyMainFolderRight, .ThemeLightGreyMainItemActive .ThemeLightGreyMainFolderRight, .ThemeLightGreyMainItemHover .ThemeLightGreyMainItemRight, .ThemeLightGreyMainItemActive .ThemeLightGreyMainItemRight {
+	border-color: #9C9A9C;
+}
+.ThemeLightGreyMainItemHover .ThemeLightGreyMainFolderText, .ThemeLightGreyMainItemActive .ThemeLightGreyMainFolderText, .ThemeLightGreyMainItemHover .ThemeLightGreyMainItemText, .ThemeLightGreyMainItemActive .ThemeLightGreyMainItemText {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 2px 2px 2px 4px;
+}
+.ThemeLightGreyMenuFolderLeft, .ThemeLightGreyMenuItemLeft {
+	padding: 3px 0px 3px 0px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMenuFolderText, .ThemeLightGreyMenuItemText {
+	padding: 3px 3px 3px 5px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMenuItemRight, .ThemeLightGreyMenuFolderRight {
+	padding: 3px 0px 3px 0px;
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeLightGreyMenuItemHover .ThemeLightGreyMenuFolderLeft, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuFolderLeft, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuItemLeft, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuItemLeft, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuFolderText, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuFolderText, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuItemText, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuItemText, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuFolderRight, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuFolderRight, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuItemRight, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuItemRight {
+	border-color: #9C9A9C;
+}
+.ThemeLightGreyMenuItemHover .ThemeLightGreyMenuFolderText, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuFolderText, .ThemeLightGreyMenuItemHover .ThemeLightGreyMenuItemText, .ThemeLightGreyMenuItemActive .ThemeLightGreyMenuItemText {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 2px 2px 2px 4px;
+}
+td.ThemeLightGreyMenuSplit {
+	padding: 0px;
+	margin: 0px;
+	height: 7px;
+	border: 0px;
+	background-color: inherit;
+	overflow: hidden;
+}
+div.ThemeLightGreyMenuSplit {
+	display: block;
+	margin: 3px;
+	height: 1px;
+	width: 100%;
+	overflow: hidden;
+	background-color: inherit;
+	border-style: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #9C9A9C;
+}
+.ThemeLightGreyMenuItem img.seq1 {
+	display: inline;
+}
+.ThemeLightGreyMenuItemHover seq2, .ThemeLightGreyMenuItemActive seq2 {
+	display: inline;
+}
+.ThemeLightGreyMenuItem .seq2, .ThemeLightGreyMenuItemHover .seq1, .ThemeLightGreyMenuItemActive .seq1 {
+	display: none;
+}

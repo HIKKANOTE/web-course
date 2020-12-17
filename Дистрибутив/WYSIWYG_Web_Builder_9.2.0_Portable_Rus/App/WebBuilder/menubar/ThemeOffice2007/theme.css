@@ -1,0 +1,132 @@
+.ThemeOffice2007Menu, .ThemeOffice2007SubMenuTable {
+	font-family: verdana, arial, sans-serif;
+	font-size: 11px;
+	padding: 0;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.ThemeOffice2007SubMenu {
+	position: absolute;
+	visibility: hidden;
+	overflow: hidden;
+	padding: 1px 1px 1px 1px;
+	background: #F6F6F6 url(menubg.gif) repeat-y scroll 0%;
+	background-position: left;
+	border: 1px solid #002D96;
+}
+.ThemeOffice2007SubMenuTable {
+	overflow: hidden;
+}
+.ThemeOffice2007MainItem, .ThemeOffice2007MainItemHover, .ThemeOffice2007MainItemActive, .ThemeOffice2007MenuItem, .ThemeOffice2007MenuItemHover, .ThemeOffice2007MenuItemActive {
+	border: 0;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.ThemeOffice2007MainItem {
+	background-color: #A1C0F5;
+}
+.ThemeOffice2007MainItemHover, .ThemeOffice2007MainItemActive {
+	background: url(mainmenubg.gif);
+}
+.ThemeOffice2007MenuItem {
+	background-color: transparent;
+}
+.ThemeOffice2007MenuItemHover, .ThemeOffice2007MenuItemActive {
+	background-color: #FFE7A2;
+}
+.ThemeOffice2007MainItem {
+	padding: 1px;
+	border: 0;
+}
+td.ThemeOffice2007MainItemHover, td.ThemeOffice2007MainItemActive {
+	padding: 0px;
+	border: 1px solid #FFBD69;
+}
+.ThemeOffice2007MainFolderLeft, .ThemeOffice2007MainItemLeft, .ThemeOffice2007MainFolderText, .ThemeOffice2007MainItemText, .ThemeOffice2007MainFolderRight, .ThemeOffice2007MainItemRight {
+	background-color: inherit;
+}
+td.ThemeOffice2007MainFolderLeft, td.ThemeOffice2007MainFolderLeft, td.ThemeOffice2007MainItemLeft, td.ThemeOffice2007MainItemLeft {
+	padding: 1px 2px 1px 1px;
+	border: 0;
+	background-color: inherit;
+}
+td.ThemeOffice2007MainFolderText, td.ThemeOffice2007MainFolderText, td.ThemeOffice2007MainItemText, td.ThemeOffice2007MainItemText {
+	padding: 1px 5px 1px 5px;
+	border: 0;
+	background-color: inherit;
+}
+td.ThemeOffice2007MainItemRight, td.ThemeOffice2007MainFolderRight {
+	padding: 1px 1px 1px 0px;
+	border: 0;
+	background-color: inherit;
+}
+tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainFolderLeft, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainFolderLeft, tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainItemLeft, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainItemLeft {
+	padding: 0px 2px 0px 0px;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-color: #FFBD69;
+	background-color: inherit;
+}
+tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainFolderText, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainFolderText, tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainItemText, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainItemText {
+	padding: 0px 5px 0px 5px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: #FFBD69;
+	background-color: inherit;
+}
+tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainFolderRight, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainFolderRight, tr.ThemeOffice2007MainItemHover td.ThemeOffice2007MainItemRight, tr.ThemeOffice2007MainItemActive td.ThemeOffice2007MainItemRight {
+	padding: 0px;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-color: #FFBD69;
+	background-color: inherit;
+}
+.ThemeOffice2007MenuFolderLeft, .ThemeOffice2007MenuItemLeft, .ThemeOffice2007MenuFolderText, .ThemeOffice2007MenuItemText, .ThemeOffice2007MenuFolderRight, .ThemeOffice2007MenuItemRight {
+	border: 0;
+	white-space: nowrap;
+	background-color: inherit;
+}
+.ThemeOffice2007MenuFolderLeft, .ThemeOffice2007MenuItemLeft {
+	padding: 3px 3px 3px 2px;
+}
+.ThemeOffice2007MenuFolderText, .ThemeOffice2007MenuItemText {
+	padding: 3px 5px 3px 5px;
+	white-space: nowrap;
+}
+.ThemeOffice2007MenuFolderRight, .ThemeOffice2007MenuItemRight {
+	padding: 3px 1px 3px 0px;
+}
+.ThemeOffice2007MenuItemHover .ThemeOffice2007MenuFolderLeft, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuFolderLeft, .ThemeOffice2007MenuItemHover .ThemeOffice2007MenuItemLeft, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuItemLeft {
+	padding: 2px 3px 2px 1px;
+	border-width: 1px 0px 1px 1px;
+	border-style: solid;
+	border-color: #FFBD69;
+}
+.ThemeOffice2007MenuItemHover .ThemeOffice2007MenuFolderText, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuFolderText, .ThemeOffice2007MenuItemHover .ThemeOffice2007MenuItemText, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuItemText {
+	padding: 2px 5px 2px 5px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: #FFBD69;
+}
+.ThemeOffice2007MenuItemHover .ThemeOffice2007MenuFolderRight, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuFolderRight, .ThemeOffice2007MenuItemHover .ThemeOffice2007MenuItemRight, .ThemeOffice2007MenuItemActive .ThemeOffice2007MenuItemRight {
+	padding: 2px 0px 2px 0px;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-color: #FFBD69;
+}
+.ThemeOffice2007MenuSplit {
+	margin: 2px;
+	height: 1px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #6A8CCB;
+}
+.ThemeOffice2007MenuItem img.seq1 {
+	display: inline;
+}
+.ThemeOffice2007MenuItemHover seq2, .ThemeOffice2007MenuItemActive seq2 {
+	display: inline;
+}
+.ThemeOffice2007MenuItem .seq2, .ThemeOffice2007MenuItemHover .seq1, .ThemeOffice2007MenuItemActive .seq1 {
+	display: none;
+}

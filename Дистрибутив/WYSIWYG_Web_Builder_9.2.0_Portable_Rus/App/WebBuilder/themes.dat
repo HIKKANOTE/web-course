@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+	<theme radius="0" size="10" bold="0" underline="0" name="black-tie" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#BBBBBB" gradient-style="0" gradient-color="#333333" background-color="#333333" text-color="#EEEEEE" gradient-theme="" background-mode="1" border-color="#A3A3A3" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#F9F9F9" background-color="#F9F9F9" text-color="#222222" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EDEDED" gradient-style="0" gradient-color="#111111" background-color="#111111" text-color="#E3E3E3" gradient-theme="" background-mode="1" border-color="#777777" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#1C1C1C" background-color="#1C1C1C" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#000000" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#222222" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="blitzer" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#CC0000" background-color="#CC0000" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#E3A1A1" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CC0000" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#333333" gradient-theme="" background-mode="1" border-color="#EEEEEE" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CC0000" gradient-style="0" gradient-color="#EEEEEE" background-color="#EEEEEE" text-color="#004276" gradient-theme="" background-mode="1" border-color="#D8DCDF" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CC0000" gradient-style="0" gradient-color="#F6F6F6" background-color="#F6F6F6" text-color="#111111" gradient-theme="" background-mode="1" border-color="#CDD5DA" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CC0000" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#CC0000" gradient-theme="" background-mode="1" border-color="#EEEEEE" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="cupertino" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#72A7CF" gradient-style="0" gradient-color="#DEEDF7" background-color="#DEEDF7" text-color="#222222" gradient-theme="" background-mode="1" border-color="#AED0EA" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#72A7CF" gradient-style="0" gradient-color="#F2F5F7" background-color="#F2F5F7" text-color="#362B36" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#3D80B3" gradient-style="0" gradient-color="#D7EBF9" background-color="#D7EBF9" text-color="#2779AA" gradient-theme="" background-mode="1" border-color="#AED0EA" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#2694E8" gradient-style="0" gradient-color="#E4F1FB" background-color="#E4F1FB" text-color="#0070A3" gradient-theme="" background-mode="1" border-color="#74B2E2" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#3BAAE3" background-color="#3BAAE3" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#2694E8" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="dark-hive" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#444444" background-color="#444444" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#333333" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CCCCCC" gradient-style="0" gradient-color="#000000" background-color="#000000" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#555555" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CCCCCC" gradient-style="0" gradient-color="#222222" background-color="#222222" text-color="#EEEEEE" gradient-theme="" background-mode="1" border-color="#444444" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#003147" background-color="#003147" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#0B93D5" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#0972A5" background-color="#0972A5" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#26B3F7" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="dot-luv" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#98D2FB" gradient-style="0" gradient-color="#0B3E6F" background-color="#0B3E6F" text-color="#F6F6F6" gradient-theme="" background-mode="1" border-color="#0B3E6F" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#9CCDFC" gradient-style="0" gradient-color="#111111" background-color="#111111" text-color="#D9D9D9" gradient-theme="" background-mode="1" border-color="#000000" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#9CCDFC" gradient-style="0" gradient-color="#333333" background-color="#333333" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#333333" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#00498F" background-color="#00498F" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#222222" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#00498F" gradient-style="0" gradient-color="#292929" background-color="#292929" text-color="#75ABFF" gradient-theme="" background-mode="1" border-color="#096AC8" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="eggplant" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#A8A3AE" gradient-style="0" gradient-color="#30273A" background-color="#30273A" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#231D2B" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#3D3644" background-color="#3D3644" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#7E7783" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#8D78A5" gradient-style="0" gradient-color="#DCD9DE" background-color="#DCD9DE" text-color="#665874" gradient-theme="" background-mode="1" border-color="#DCD9DE" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#734D99" gradient-style="0" gradient-color="#EAE6EA" background-color="#EAE6EA" text-color="#734D99" gradient-theme="" background-mode="1" border-color="#D1C5D8" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#5F5964" background-color="#5F5964" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#7E7783" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="excite-bike" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#5FA5E3" gradient-style="0" gradient-color="#F9F9F9" background-color="#F9F9F9" text-color="#E69700" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#0A82EB" gradient-style="0" gradient-color="#EEEEEE" background-color="#EEEEEE" text-color="#222222" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FCDD4A" gradient-style="0" gradient-color="#1484E6" background-color="#1484E6" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#FFFFFF" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#2293F7" background-color="#2293F7" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#2293F7" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#E69700" background-color="#E69700" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#E69700" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="flick" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#0073EA" gradient-style="0" gradient-color="#DDDDDD" background-color="#DDDDDD" text-color="#444444" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FF0084" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#444444" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#666666" gradient-style="0" gradient-color="#F6F6F6" background-color="#F6F6F6" text-color="#0073EA" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#0073EA" background-color="#0073EA" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#0073EA" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#FF0084" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="hot-sneaks" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#E1E463" gradient-style="0" gradient-color="#35414F" background-color="#35414F" text-color="#E1E463" gradient-theme="" background-mode="1" border-color="#2C4359" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#C02669" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#2C4359" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#93C3CD" background-color="#93C3CD" text-color="#333333" gradient-theme="" background-mode="1" border-color="#93C3CD" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#CCD232" background-color="#CCD232" text-color="#212121" gradient-theme="" background-mode="1" border-color="#999999" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#DB4865" background-color="#DB4865" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#FF6B7F" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="humanity" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#CB842E" background-color="#CB842E" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#D49768" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#C47A23" gradient-style="0" gradient-color="#F4F0EC" background-color="#F4F0EC" text-color="#1E1B1D" gradient-theme="" background-mode="1" border-color="#E0CFC2" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F08000" gradient-style="0" gradient-color="#EDE4D4" background-color="#EDE4D4" text-color="#3F3731" gradient-theme="" background-mode="1" border-color="#CDC3B7" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F08000" gradient-style="0" gradient-color="#F5F0E5" background-color="#F5F0E5" text-color="#A46313" gradient-theme="" background-mode="1" border-color="#F5AD66" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F35F07" gradient-style="0" gradient-color="#F4F0EC" background-color="#F4F0EC" text-color="#B85700" gradient-theme="" background-mode="1" border-color="#E0CFC2" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="le-frog" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#3A8104" background-color="#3A8104" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#3F7506" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#72B42D" gradient-style="0" gradient-color="#285C00" background-color="#285C00" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#72B42D" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#4CA20B" background-color="#4CA20B" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#45930B" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#4EB305" background-color="#4EB305" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#8BD83B" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#285C00" background-color="#285C00" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#72B42D" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="mint-choc" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#E3DDC9" gradient-style="0" gradient-color="#453326" background-color="#453326" text-color="#E3DDC9" gradient-theme="" background-mode="1" border-color="#695649" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#201913" background-color="#201913" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#9C947C" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#9BCC60" gradient-style="0" gradient-color="#1C160D" background-color="#1C160D" text-color="#9BCC60" gradient-theme="" background-mode="1" border-color="#695444" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#ADD978" gradient-style="0" gradient-color="#44372C" background-color="#44372C" text-color="#BAEC7E" gradient-theme="" background-mode="1" border-color="#9C947C" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#E3DDC9" gradient-style="0" gradient-color="#201913" background-color="#201913" text-color="#E3DDC9" gradient-theme="" background-mode="1" border-color="#9C947C" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="overcast" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#999999" gradient-style="0" gradient-color="#DDDDDD" background-color="#DDDDDD" text-color="#444444" gradient-theme="" background-mode="1" border-color="#BBBBBB" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#999999" gradient-style="0" gradient-color="#C9C9C9" background-color="#C9C9C9" text-color="#333333" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#70B2E1" gradient-style="0" gradient-color="#EEEEEE" background-color="#EEEEEE" text-color="#3383BB" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#3383BB" gradient-style="0" gradient-color="#F8F8F8" background-color="#F8F8F8" text-color="#599FCF" gradient-theme="" background-mode="1" border-color="#BBBBBB" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#999999" background-color="#999999" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#999999" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="pepper-grinder" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#B83400" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#453821" gradient-theme="" background-mode="1" border-color="#D4D1BF" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#ECEADF" background-color="#ECEADF" text-color="#1F1F1F" gradient-theme="" background-mode="1" border-color="#D9D6C4" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#B83400" gradient-style="0" gradient-color="#F8F7F6" background-color="#F8F7F6" text-color="#654B24" gradient-theme="" background-mode="1" border-color="#CBC7BD" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#654B24" background-color="#654B24" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#654B24" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#8C291D" gradient-style="0" gradient-color="#ECEADF" background-color="#ECEADF" text-color="#140F06" gradient-theme="" background-mode="1" border-color="#D9D6C4" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="redmond" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#D8E7F3" gradient-style="0" gradient-color="#5C9CCC" background-color="#5C9CCC" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#4297D7" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#469BDD" gradient-style="0" gradient-color="#FCFDFD" background-color="#FCFDFD" text-color="#222222" gradient-theme="" background-mode="1" border-color="#A6C9E2" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#6DA8D5" gradient-style="0" gradient-color="#DFEFFC" background-color="#DFEFFC" text-color="#2E6E9E" gradient-theme="" background-mode="1" border-color="#C5DBEC" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#217BC0" gradient-style="0" gradient-color="#D0E5F5" background-color="#D0E5F5" text-color="#1D5987" gradient-theme="" background-mode="1" border-color="#79B7E7" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F9BD01" gradient-style="0" gradient-color="#F5F8F9" background-color="#F5F8F9" text-color="#E17009" gradient-theme="" background-mode="1" border-color="#79B7E7" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="smoothness" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#CCCCCC" background-color="#CCCCCC" text-color="#222222" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#222222" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#888888" gradient-style="0" gradient-color="#E6E6E6" background-color="#E6E6E6" text-color="#555555" gradient-theme="" background-mode="1" border-color="#D3D3D3" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#DADADA" background-color="#DADADA" text-color="#212121" gradient-theme="" background-mode="1" border-color="#999999" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#454545" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#212121" gradient-theme="" background-mode="1" border-color="#AAAAAA" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="south-street" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#847E71" gradient-style="0" gradient-color="#ECE8DA" background-color="#ECE8DA" text-color="#433F38" gradient-theme="" background-mode="1" border-color="#D4CCB0" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#808080" gradient-style="0" gradient-color="#F5F3E5" background-color="#F5F3E5" text-color="#312E25" gradient-theme="" background-mode="1" border-color="#DFD9C3" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EEEEEE" gradient-style="0" gradient-color="#459E00" background-color="#459E00" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#327E04" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#67B021" background-color="#67B021" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#327E04" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#8DC262" gradient-style="0" gradient-color="#FAFAF4" background-color="#FAFAF4" text-color="#459E00" gradient-theme="" background-mode="1" border-color="#D4CCB0" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="start" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#D8E7F3" gradient-style="0" gradient-color="#2191C0" background-color="#2191C0" text-color="#EAF5F7" gradient-theme="" background-mode="1" border-color="#4297D7" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#0078AE" gradient-style="0" gradient-color="#FCFDFD" background-color="#FCFDFD" text-color="#222222" gradient-theme="" background-mode="1" border-color="#A6C9E2" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#E0FDFF" gradient-style="0" gradient-color="#0078AE" background-color="#0078AE" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#77D5F7" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#056B93" gradient-style="0" gradient-color="#79C9EC" background-color="#79C9EC" text-color="#026890" gradient-theme="" background-mode="1" border-color="#448DAE" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F5E175" gradient-style="0" gradient-color="#6EAC2C" background-color="#6EAC2C" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#ACDD4A" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="sunny" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FADC7A" gradient-style="0" gradient-color="#817865" background-color="#817865" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#494437" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#D19405" gradient-style="0" gradient-color="#FEEEBD" background-color="#FEEEBD" text-color="#383838" gradient-theme="" background-mode="1" border-color="#8E846B" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#3D3D3D" gradient-style="0" gradient-color="#FECE2F" background-color="#FECE2F" text-color="#4C3000" gradient-theme="" background-mode="1" border-color="#D19405" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#BD7B00" gradient-style="0" gradient-color="#FFDD57" background-color="#FFDD57" text-color="#381F00" gradient-theme="" background-mode="1" border-color="#A45B13" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EB990F" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#0074C7" gradient-theme="" background-mode="1" border-color="#655E4E" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="swanky-purse" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#E9CD86" gradient-style="0" gradient-color="#261803" background-color="#261803" text-color="#EACD86" gradient-theme="" background-mode="1" border-color="#BAAA5A" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EFEC9F" gradient-style="0" gradient-color="#443113" background-color="#443113" text-color="#EFEC9F" gradient-theme="" background-mode="1" border-color="#EFEC9F" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#E8E2B5" gradient-style="0" gradient-color="#4F4221" background-color="#4F4221" text-color="#F8EEC9" gradient-theme="" background-mode="1" border-color="#362917" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F2EC64" gradient-style="0" gradient-color="#675423" background-color="#675423" text-color="#F8EEC9" gradient-theme="" background-mode="1" border-color="#362917" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F9F2BD" gradient-style="0" gradient-color="#443113" background-color="#443113" text-color="#F9F2BD" gradient-theme="" background-mode="1" border-color="#EFEC9F" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="trontastic" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#1F1F1F" gradient-style="0" gradient-color="#9FDA58" background-color="#9FDA58" text-color="#222222" gradient-theme="" background-mode="1" border-color="#000000" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#9FDA58" gradient-style="0" gradient-color="#000000" background-color="#000000" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#4A4A4A" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#B8EC79" gradient-style="0" gradient-color="#0A0A0A" background-color="#0A0A0A" text-color="#B8EC79" gradient-theme="" background-mode="1" border-color="#1B1613" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#B8EC79" gradient-style="0" gradient-color="#000000" background-color="#000000" text-color="#96F226" gradient-theme="" background-mode="1" border-color="#000000" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#4C4C4C" background-color="#4C4C4C" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#696969" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="ui-darkness" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#333333" background-color="#333333" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#333333" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CCCCCC" gradient-style="0" gradient-color="#000000" background-color="#000000" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#666666" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#CCCCCC" gradient-style="0" gradient-color="#555555" background-color="#555555" text-color="#EEEEEE" gradient-theme="" background-mode="1" border-color="#666666" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#0078A3" background-color="#0078A3" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#59B4D4" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#F58400" background-color="#F58400" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#FFAF0F" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="ui-lightness" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#FFFFFF" gradient-style="0" gradient-color="#F6A828" background-color="#F6A828" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#E78F08" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#222222" gradient-style="0" gradient-color="#EEEEEE" background-color="#EEEEEE" text-color="#333333" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EF8C08" gradient-style="0" gradient-color="#F6F6F6" background-color="#F6F6F6" text-color="#1C94C4" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EF8C08" gradient-style="0" gradient-color="#FDF5CE" background-color="#FDF5CE" text-color="#C77405" gradient-theme="" background-mode="1" border-color="#FBCB09" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#EF8C08" gradient-style="0" gradient-color="#FFFFFF" background-color="#FFFFFF" text-color="#EB8F00" gradient-theme="" background-mode="1" border-color="#FBD850" name="active-state" background-image="" >
+		</item>
+	</theme>
+	<theme radius="0" size="10" bold="0" underline="0" name="vader" font="Arial" italic="0" >
+		<item pattern-style="0" icon-color="#CCCCCC" gradient-style="0" gradient-color="#888888" background-color="#888888" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#404040" name="header" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#BBBBBB" gradient-style="0" gradient-color="#121212" background-color="#121212" text-color="#EEEEEE" gradient-theme="" background-mode="1" border-color="#404040" name="content" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#666666" gradient-style="0" gradient-color="#ADADAD" background-color="#ADADAD" text-color="#333333" gradient-theme="" background-mode="1" border-color="#CCCCCC" name="default-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#C98000" gradient-style="0" gradient-color="#DDDDDD" background-color="#DDDDDD" text-color="#000000" gradient-theme="" background-mode="1" border-color="#DDDDDD" name="hover-state" background-image="" >
+		</item>
+		<item pattern-style="0" icon-color="#F29A00" gradient-style="0" gradient-color="#121212" background-color="#121212" text-color="#FFFFFF" gradient-theme="" background-mode="1" border-color="#000000" name="active-state" background-image="" >
+		</item>
+	</theme>
+</themes>

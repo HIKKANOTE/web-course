@@ -1,0 +1,79 @@
+.ThemeSkyMenu, .ThemeSkySubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeSkyMenuOuter {
+	background-color: #009CF0;
+	border: 0;
+}
+.ThemeSkySubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 0;
+}
+.ThemeSkyMenu td {
+	padding: 4px 0px 4px 0px;
+}
+.ThemeSkySubMenuTable {
+	color: #000000;
+	text-align: left;
+	background-color: #D3D3D3;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeSkySubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeSkyMainItem, .ThemeSkyMainItemHover, .ThemeSkyMainItemActive, .ThemeSkyMenuItem, .ThemeSkyMenuItemHover, .ThemeSkyMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeSkyMainItemHover, .ThemeSkyMainItemActive {
+	color: #000000;
+	background-color: #53C2FF;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeSkyMenuItemHover, .ThemeSkyMenuItemActive {
+	color: #000000;
+	background-color: #E5E5E5;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeSkyMenuFolderLeft, .ThemeSkyMenuFolderRight, .ThemeSkyMenuItemLeft, .ThemeSkyMenuItemRight {
+	padding: 4px 0px 4px 0px;
+}
+td.ThemeSkyMainFolderText, td.ThemeSkyMainItemText {
+	padding: 4px 6px 4px 6px;
+}
+.ThemeSkyMenuFolderText, .ThemeSkyMenuItemText {
+	padding: 4px 6px 4px 6px;
+}
+td.ThemeSkyMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeSkyMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #FFFFFF;
+}
+.ThemeSkyMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #FFFFFF;
+}

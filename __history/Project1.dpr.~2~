@@ -1,0 +1,78 @@
+program Project1;
+
+uses
+  Forms,
+  Unit2 in 'Unit2.pas' {Form2},
+  Unit3 in 'Unit3.pas' {Lekcia1},
+  Unit4 in 'Unit4.pas' {Lekcia2},
+  Unit5 in 'Unit5.pas' {Lekcia3},
+  Unit6 in 'Unit6.pas' {Lekcia4},
+  Unit7 in 'Unit7.pas' {Lekcia5},
+  Unit8 in 'Unit8.pas' {Lekcia6},
+  Unit9 in 'Unit9.pas' {Lekcia7},
+  Unit10 in 'Unit10.pas' {Lekcia8},
+  Unit11 in 'Unit11.pas' {Lekcia9},
+  Unit12 in 'Unit12.pas' {Lekcia10},
+  Unit13 in 'Unit13.pas' {Lekcia11},
+  Unit14 in 'Unit14.pas' {Lekcia12},
+  Unit15 in 'Unit15.pas' {Lekcia13},
+  Unit16 in 'Unit16.pas' {Lekcia14},
+  Unit17 in 'Unit17.pas' {Lekcia15},
+  Unit18 in 'Unit18.pas' {Lekcia16},
+  Unit19 in 'Unit19.pas' {Lekcia17},
+  Unit20 in 'Unit20.pas' {Lekcia18},
+  Unit21 in 'Unit21.pas' {Lekcia19},
+  Unit22 in 'Unit22.pas' {Lekcia20},
+  Unit23 in 'Unit23.pas' {Lekcia21},
+  Unit24 in 'Unit24.pas' {Lekcia22},
+  Unit25 in 'Unit25.pas' {Prezentacia},
+  Unit26 in 'Unit26.pas' {Praktika},
+  MAIN in 'MAIN.PAS' {Form32},
+  SRVMAIN in 'SRVMAIN.PAS' {Form29},
+  Unit1 in 'Unit1.pas' {Form1},
+  CONN in 'CONN.PAS' {Form33},
+  Test1 in 'Тесты\Test1.pas' {TestForm1},
+  Test3 in 'Тесты\Test3.pas' {TestForm3},
+  Unit30 in 'Unit30.pas' {Form30},
+  Unit31 in 'Unit31.pas' {Form31};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TLekcia1, Lekcia1);
+  Application.CreateForm(TLekcia2, Lekcia2);
+  Application.CreateForm(TLekcia3, Lekcia3);
+  Application.CreateForm(TLekcia4, Lekcia4);
+  Application.CreateForm(TLekcia5, Lekcia5);
+  Application.CreateForm(TLekcia6, Lekcia6);
+  Application.CreateForm(TLekcia7, Lekcia7);
+  Application.CreateForm(TLekcia8, Lekcia8);
+  Application.CreateForm(TLekcia9, Lekcia9);
+  Application.CreateForm(TLekcia10, Lekcia10);
+  Application.CreateForm(TLekcia11, Lekcia11);
+  Application.CreateForm(TLekcia12, Lekcia12);
+  Application.CreateForm(TLekcia13, Lekcia13);
+  Application.CreateForm(TLekcia14, Lekcia14);
+  Application.CreateForm(TLekcia15, Lekcia15);
+  Application.CreateForm(TLekcia16, Lekcia16);
+  Application.CreateForm(TLekcia17, Lekcia17);
+  Application.CreateForm(TLekcia18, Lekcia18);
+  Application.CreateForm(TLekcia19, Lekcia19);
+  Application.CreateForm(TLekcia20, Lekcia20);
+  Application.CreateForm(TLekcia21, Lekcia21);
+  Application.CreateForm(TLekcia22, Lekcia22);
+  Application.CreateForm(TPrezentacia, Prezentacia);
+  Application.CreateForm(TPraktika, Praktika);
+  Application.CreateForm(TForm32, Form32);
+  Application.CreateForm(TForm29, Form29);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm33, Form33);
+  Application.CreateForm(TTestForm1, TestForm1);
+  Application.CreateForm(TTestForm3, TestForm3);
+  Application.CreateForm(TForm30, Form30);
+  Application.CreateForm(TForm31, Form31);
+  Application.Run;
+end.

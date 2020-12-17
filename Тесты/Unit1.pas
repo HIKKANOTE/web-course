@@ -1,0 +1,142 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls, jpeg;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    AnswerGroup: TRadioGroup;
+    GroupBox1: TGroupBox;
+    Question: TLabel;
+    TestBox: TComboBox;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure LoadQuestion(Index: integer);
+    procedure FormCreate(Sender: TObject);
+    procedure LoadTest(Index: integer);
+    procedure TestBoxCloseUp(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+  public
+  end;
+
+const
+  TestName='Test_'; // имя файла теста
+  max=1000; // максимальное количесво вопросов
+var
+  Form1: TForm1;
+  QuestionText: array [0..max] of string; // текст вопроса
+  AnswerQuestion: array [0..max] of byte; // правильный вариант ответа
+  QuestionText1: array [0..max] of string;// первый вопрос
+  QuestionText2: array [0..max] of string;// второй вопрос
+  QuestionText3: array [0..max] of string;// третий вопрос
+  Ball: integer=0;                        // оценка
+  now: integer=0;
+  r:real;
+  a,rez:integer;
+
+implementation
+
+uses Unit2,unit3;
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  if AnswerQuestion[now]=AnswerGroup.ItemIndex+1 then  // сравниваем значение ответа и выбранного значения
+  inc(ball);
+  AnswerGroup.ItemIndex:=-1;  // убираем выдаление с группы ответов
+  inc(now);                   // увеличиваем вопрос на 1+
+  LoadQuestion(now);          // загружаем его
+end;
+
+procedure TForm1.LoadQuestion(Index: integer);
+begin
+ if QuestionText[Index]<>'' then// если выбранный вопрос существует то грузим его
+  begin
+  AnswerGroup.Items.Clear;// очищаем поле ответов
+  Question.Caption:=QuestionText[Index];// задаем запрос
+  AnswerGroup.Items.Add(QuestionText1[index]);// добавляем ответ
+  AnswerGroup.Items.Add(QuestionText2[index]); // добавляем ответ
+  AnswerGroup.Items.Add(QuestionText3[index]);  // добавляем ответ
+  end
+  else // иначе сообщаем что тест завершен
+  begin
+  rez:= 0;
+  a:=ball;
+  r:=(100*a)/5;
+  if r>84 then rez:=5 else
+  if (r>65) and  (r <85) then rez:=4 else
+  if (r>44) and (r<65) then   rez:=3 else rez:=2;
+  Form3.Label3.Caption:= IntToStr(rez);
+  Form3.Label4.Caption:= floatToStr(r);
+  Form3.ShowModal;
+  end;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+var
+  s: Tstrings;
+  i: Integer;
+begin
+  i:=0;
+  while FileExists(ExtractFilePath(application.ExeName)+TestName+inttostr(i)+'.txt') do  // проверяем файлы тестов
+  begin
+  application.ProcessMessages;  // что б не тормозило
+  s:=tstringlist.Create;        // создаем переменную
+  s.LoadFromFile(ExtractFilePath(application.ExeName)+TestName+inttostr(i)+'.txt'); // загружаем файл
+    if s.Text<>'' then  // если не пуст то
+    TestBox.Items.Add(s.Strings[0]); // добавляем в группу тестов название теста
+  s.Free;  // уничтожаем переменную
+  inc(i);  // увеличиваем счетчик
+  end;
+end;
+
+procedure TForm1.LoadTest(Index: integer);
+var
+  s: Tstrings;
+  j, h: Integer;
+begin
+  h:=0;
+  s:=tstringlist.Create;  // создаем переменную
+  s.LoadFromFile(ExtractFilePath(application.ExeName)+TestName+inttostr(Index)+'.txt'); // загружаем
+    if s.Text<>'' then  // если не пустая то
+    begin
+    form1.Caption:=s.Strings[0]; // название теста
+      for j := 1 to s.Count - 1 do // начинаем присваивать значения
+      begin
+        if s.Strings[j]='__________' then  // это разделитель который мы ищем
+        begin
+        QuestionText[h]:=s.Strings[j+1]; // текст вопроса
+        QuestionText1[h]:=s.Strings[j+2];// текст первого вариант ответа
+        QuestionText2[h]:=s.Strings[j+3];// текст второго варианта ответа
+        QuestionText3[h]:=s.Strings[j+4];// текст третьего варианта ответа
+        AnswerQuestion[h]:=strtoint(s.Strings[j+5]); // номер ответа
+        inc(h); // увеличиваем счетчик для того что бы записывать в новый элемент массива
+
+        end
+      end;
+    end;
+  s.Free; // уничтожаем переменную
+  LoadQuestion(now);// загружаем вопрос здесь он всегда = 0
+end;
+
+procedure TForm1.TestBoxCloseUp(Sender: TObject);
+begin
+  ball:=0;
+  now:=0;
+  button1.Enabled:=true;
+  button2.Enabled:=false;
+  LoadTest(TestBox.ItemIndex);
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+Form2.ShowModal;
+end;
+
+end.

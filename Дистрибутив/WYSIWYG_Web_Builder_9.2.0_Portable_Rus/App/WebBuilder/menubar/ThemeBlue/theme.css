@@ -1,0 +1,79 @@
+.ThemeBlueMenu, .ThemeBlueSubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeBlueMenuOuter {
+	background-color: #B2CFEB;
+	border: 0;
+}
+.ThemeBlueSubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 0;
+}
+.ThemeBlueMenu td {
+	padding: 4px 0px 4px 0px;
+}
+.ThemeBlueSubMenuTable {
+	color: #000000;
+	text-align: left;
+	background-color: #B2CFEB;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeBlueSubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeBlueMainItem, .ThemeBlueMainItemHover, .ThemeBlueMainItemActive, .ThemeBlueMenuItem, .ThemeBlueMenuItemHover, .ThemeBlueMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeBlueMainItemHover, .ThemeBlueMainItemActive {
+	color: #FFFFFF;
+	background-color: #003366;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: underline;
+}
+.ThemeBlueMenuItemHover, .ThemeBlueMenuItemActive {
+	color: #FFFFFF;
+	background-color: #3F658B;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: underline;
+}
+.ThemeBlueMenuFolderLeft, .ThemeBlueMenuFolderRight, .ThemeBlueMenuItemLeft, .ThemeBlueMenuItemRight {
+	padding: 4px 0px 4px 0px;
+}
+td.ThemeBlueMainFolderText, td.ThemeBlueMainItemText {
+	padding: 4px 6px 4px 6px;
+}
+.ThemeBlueMenuFolderText, .ThemeBlueMenuItemText {
+	padding: 4px 6px 4px 6px;
+}
+td.ThemeBlueMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeBlueMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #000000;
+}
+.ThemeBlueMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #000000;
+}

@@ -1,0 +1,91 @@
+.ThemeVioletMenu, .ThemeVioletSubMenuTable {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: left;
+	padding: 0;
+	cursor: pointer;
+}
+.ThemeVioletMenuOuter {
+	background-color: #7D5AC5;
+	border: 1px solid #9A759F;
+}
+.ThemeVioletSubMenu {
+	position: absolute;
+	visibility: hidden;
+	border: 0;
+	padding: 0;
+	border: 1px solid #8D5AC3;
+}
+.ThemeVioletMenu td {
+	padding: 4px 0px 4px 0px;
+}
+.ThemeVioletSubMenuTable {
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #8D5AC3;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeVioletSubMenuTable td {
+	white-space: nowrap;
+}
+.ThemeVioletMainItem, .ThemeVioletMainItemHover, .ThemeVioletMainItemActive, .ThemeVioletMenuItem, .ThemeVioletMenuItemHover, .ThemeVioletMenuItemActive {
+	white-space: nowrap;
+}
+.ThemeVioletMainItemHover, .ThemeVioletMainItemActive {
+	color: #DBEEE0;
+	background-color: #CCBBE3;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeVioletMenuItemHover, .ThemeVioletMenuItemActive {
+	color: #000000;
+	background-color: #BBB4DC;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+.ThemeVioletMainItem .ThemeVioletMainItemText, .ThemeVioletMainItem .ThemeVioletMainFolderText {
+	border: 1px solid transparent;
+}
+.ThemeVioletMainItemHover .ThemeVioletMainItemText, .ThemeVioletMainItemActive .ThemeVioletMainItemText, .ThemeVioletMainItemHover .ThemeVioletMainFolderText, .ThemeVioletMainItemActive .ThemeVioletMainFolderText {
+	border: 1px solid #9A759F;
+}
+.ThemeVioletMenuFolderLeft, .ThemeVioletMenuFolderRight, .ThemeVioletMenuItemLeft, .ThemeVioletMenuItemRight {
+	padding: 4px 0px 4px 0px;
+}
+td.ThemeVioletMainFolderText, td.ThemeVioletMainItemText {
+	padding: 4px 6px 4px 6px;
+}
+.ThemeVioletMenuFolderText, .ThemeVioletMenuItemText {
+	padding: 4px 6px 4px 6px;
+}
+.ThemeVioletMenuItem .ThemeVioletMenuFolderText, .ThemeVioletMenuItem .ThemeVioletMenuItemText {
+	border: 1px solid transparent;
+}
+.ThemeVioletMenuItemHover .ThemeVioletMenuFolderText, .ThemeVioletMenuItemActive .ThemeVioletMenuFolderText, .ThemeVioletMenuItemHover .ThemeVioletMenuItemText, .ThemeVioletMenuItemActive .ThemeVioletMenuItemText {
+	border: 1px solid #8D5AC3;
+}
+td.ThemeVioletMenuSplit {
+	overflow: hidden;
+	background-color: inherit;
+}
+div.ThemeVioletMenuSplit {
+	height: 1px;
+	margin: 1px 0px 1px 0px;
+	overflow: hidden;
+	background-color: inherit;
+	border-top: 1px solid #FFFFFF;
+}
+.ThemeVioletMenuVSplit {
+	display: block;
+	width: 1px;
+	margin: 0px 2px 0px 2px;
+	overflow: hidden;
+	background-color: inherit;
+	border-right: 1px solid #FFFFFF;
+}

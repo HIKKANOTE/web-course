@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animations>
+	<animation name="animate-background" >
+		<keyframe position="0" value="#000000" property="background-color" >		</keyframe>
+		<keyframe position="100" value="#FFFFFF" property="background-color" >		</keyframe>
+	</animation>
+	<animation name="animate-border" >
+		<keyframe position="0" value="#000000" property="border-color" >		</keyframe>
+		<keyframe position="100" value="#FF0000" property="border-color" >		</keyframe>
+	</animation>
+	<animation name="animate-box-shadow" >
+		<keyframe position="0" value="0px 0px 5px #FF0000" property="box-shadow" >		</keyframe>
+		<keyframe position="50" value="0px 0px 15px 15px #FF0000" property="box-shadow" >		</keyframe>
+		<keyframe position="100" value="0px 0px 5px #FF0000" property="box-shadow" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-in" >
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-in-down" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,-100px" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-in-left" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,-100px,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-in-right" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,100px,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-in-up" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,100px" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-fade-out" >
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-flash" >
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="25" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="75" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-font-size" >
+		<keyframe position="0" value="100%" property="font-size" >		</keyframe>
+		<keyframe position="50" value="200%" property="font-size" >		</keyframe>
+		<keyframe position="100" value="100%" property="font-size" >		</keyframe>
+	</animation>
+	<animation name="animate-opacity" >
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="50" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="animate-scroll-x" >
+		<keyframe position="0" value="-200%" property="margin-left" >		</keyframe>
+		<keyframe position="100" value="100%" property="margin-left" >		</keyframe>
+	</animation>
+	<animation name="animate-scroll-y" >
+		<keyframe position="0" value="-200%" property="margin-top" >		</keyframe>
+		<keyframe position="100" value="100%" property="margin-top" >		</keyframe>
+	</animation>
+	<animation name="bouncing-ball" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,0,0,0,140" property="transform" >		</keyframe>
+		<keyframe position="50" value="140px" property="height" >		</keyframe>
+		<keyframe position="55" value="0,1.0,1.0,0,0,0,150" property="transform" >		</keyframe>
+		<keyframe position="55" value="120px" property="height" >		</keyframe>
+		<keyframe position="65" value="0,1.0,1.0,0,0,0,120" property="transform" >		</keyframe>
+		<keyframe position="65" value="120px" property="height" >		</keyframe>
+		<keyframe position="95" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="bouncing-ball-move" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="10" value="0,1.0,1.0,0,0,150,250" property="transform" >		</keyframe>
+		<keyframe position="20" value="0,1.0,1.0,0,0,450,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="0,1.0,1.0,0,0,700,250" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.0,0,0,910,75" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,0,0,800,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,500,250" property="transform" >		</keyframe>
+		<keyframe position="70" value="0,1.0,1.0,0,0,400,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,300,250" property="transform" >		</keyframe>
+		<keyframe position="90" value="0,1.0,1.0,0,0,150,0" property="transform" >		</keyframe>
+		<keyframe position="95" value="0,1.0,1.0,0,0,100,250" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="rainbow-background" >
+		<keyframe position="0" value="#FF3399" property="background-color" >		</keyframe>
+		<keyframe position="23" value="#FF6633" property="background-color" >		</keyframe>
+		<keyframe position="48" value="#FFF802" property="background-color" >		</keyframe>
+		<keyframe position="80" value="#04A396" property="background-color" >		</keyframe>
+		<keyframe position="100" value="#3366FF" property="background-color" >		</keyframe>
+	</animation>
+	<animation name="rainbow-dimmer" >
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="0" value="#FF0000" property="background-color" >		</keyframe>
+		<keyframe position="20" value="#FFFF00" property="background-color" >		</keyframe>
+		<keyframe position="40" value="#00FF00" property="background-color" >		</keyframe>
+		<keyframe position="50" value="0" property="opacity" >		</keyframe>
+		<keyframe position="60" value="#00FFFF" property="background-color" >		</keyframe>
+		<keyframe position="80" value="#0000FF" property="background-color" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="#FF0080" property="background-color" >		</keyframe>
+	</animation>
+	<animation name="rainbow-text" >
+		<keyframe position="0" value="#FF3399" property="color" >		</keyframe>
+		<keyframe position="23" value="#FF6633" property="color" >		</keyframe>
+		<keyframe position="48" value="#FFF802" property="color" >		</keyframe>
+		<keyframe position="80" value="#04A396" property="color" >		</keyframe>
+		<keyframe position="100" value="#3366FF" property="color" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.0,0,0,0,-30px" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,0,-15px" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-in" >
+		<keyframe position="0" value="0,0.3,0.3,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="0,1.05,1.05,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="70" value="0,0.9,0.9,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-in-down" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,-1000px" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,0,30px" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,0,-10px" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-in-left" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,-1000px,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,30px,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-in-right" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,1000px,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,-30px,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,10px,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-in-up" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,1000px" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,0,-30px" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,0,10px" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-bounch-out" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="25" value="0,0.95,0.95,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,0.3,0.3,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-fly-in" >
+		<keyframe position="0" value="-180,1.0,1.0,0,0,-100%,-100%" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0px,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-flip" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,1,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,-1.0,-1.0,0,0,1,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-flip-scale" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="25" value="0,0.5,0.5,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,0,0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="75" value="0,-0.5,-0.5,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,-1.0,-1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-float-up" >
+		<keyframe position="0" value="4,1.0,1.0,0,0,-50%,400%" property="transform" >		</keyframe>
+		<keyframe position="20" value="-4,1.0,1.0,0,0,50%,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="4,1.0,1.0,0,0,-50%,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="-4,1.0,1.0,0,0,50%,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="4,1.0,1.0,0,0,-50%,0" property="transform" >		</keyframe>
+		<keyframe position="88" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="92" value="0,1.0,1.0,0,0,0,20%" property="transform" >		</keyframe>
+		<keyframe position="96" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="98" value="0,1.0,1.0,0,0,0,10%" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-hinge" >
+		<keyframe position="0" value="top left" property="transform-origin" >		</keyframe>
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="top left" property="transform-origin" >		</keyframe>
+		<keyframe position="20" value="80,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="60,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="top left" property="transform-origin" >		</keyframe>
+		<keyframe position="60" value="80,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="1" property="opacity" >		</keyframe>
+		<keyframe position="80" value="top left" property="transform-origin" >		</keyframe>
+		<keyframe position="80" value="60,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,1000px" property="transform" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-lightspeed-in" >
+		<keyframe position="0" value="0,1.0,1.0,-30,0,100%,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,30,0,-20%,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="1" property="opacity" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,-15,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-lightspeed-out" >
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,-30,0,100%,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-marquee" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,100%,0" property="transform" >		</keyframe>
+		<keyframe position="10" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,0,0,-100%,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,-100%,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-pulse" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-roll-in" >
+		<keyframe position="0" value="-120,1.0,1.0,0,0,-100%,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-rotate" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="359,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-rotate-in" >
+		<keyframe position="0" value="center center" property="transform-origin" >		</keyframe>
+		<keyframe position="0" value="-200,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="0" property="opacity" >		</keyframe>
+		<keyframe position="100" value="center center" property="transform-origin" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-rotate-out" >
+		<keyframe position="0" value="center center" property="transform-origin" >		</keyframe>
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="center center" property="transform-origin" >		</keyframe>
+		<keyframe position="100" value="120,1.0,1.0,0,0,100%,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-scale" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,2.0,2.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-shake" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="10" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="0,1.0,1.0,0,0,10px,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.0,0,0,10px,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,0,0,10px,0" property="transform" >		</keyframe>
+		<keyframe position="70" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,0,0,10px,0" property="transform" >		</keyframe>
+		<keyframe position="90" value="0,1.0,1.0,0,0,-10px,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-skew" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,30,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-spring" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="0,1.0,0.5,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.5,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,0.7,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="61" value="0,1.0,1.4,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="72" value="0,1.0,0.8,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="83" value="0,1.0,1.2,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-swing" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="top center" property="transform-origin" >		</keyframe>
+		<keyframe position="20" value="15,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="top center" property="transform-origin" >		</keyframe>
+		<keyframe position="40" value="-10,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="top center" property="transform-origin" >		</keyframe>
+		<keyframe position="60" value="5,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="top center" property="transform-origin" >		</keyframe>
+		<keyframe position="80" value="-5,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="top center" property="transform-origin" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-tada" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="10" value="-3,0.9,0.9,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="-3,0.9,0.9,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="-3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="-3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="70" value="3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="-3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="90" value="3,1.1,1.1,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-wobble" >
+		<keyframe position="0" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="15" value="-5,1.0,1.0,0,0,-25%,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="3,1.0,1.0,0,0,20%,0" property="transform" >		</keyframe>
+		<keyframe position="45" value="-3,1.0,1.0,0,0,-15%,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="2,1.0,1.0,0,0,10%,0" property="transform" >		</keyframe>
+		<keyframe position="75" value="-1,1.0,1.0,0,0,-5%,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-wiggle" >
+		<keyframe position="0" value="0,1.0,1.0,9,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="10" value="0,1.0,1.0,-8,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="20" value="0,1.0,1.0,7,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="30" value="0,1.0,1.0,-6,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="40" value="0,1.0,1.0,5,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="50" value="0,1.0,1.0,-4,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="60" value="0,1.0,1.0,3,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="70" value="0,1.0,1.0,-2,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="80" value="0,1.0,1.0,1,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="90" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+		<keyframe position="100" value="0,1.0,1.0,0,0,0,0" property="transform" >		</keyframe>
+	</animation>
+	<animation name="transform-3d-flip" >
+		<keyframe position="0" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="40" value="0,170,0,1.0,1.0,1.0,0,0,150px,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="50" value="0,190,0,1.01,1.01,1.01,0,0,150px,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="80" value="0,360,0,0.95,0.95,0.95,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="100" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+	</animation>
+	<animation name="transform-3d-flip-in-x" >
+		<keyframe position="0" value="90,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="40" value="-10,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="70" value="10,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+	</animation>
+	<animation name="transform-3d-flip-in-y" >
+		<keyframe position="0" value="0,90,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="40" value="0,-10,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="70" value="0,10,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="100" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+	</animation>
+	<animation name="transform-3d-flip-out-x" >
+		<keyframe position="0" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="90,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+	<animation name="transform-3d-flip-out-y" >
+		<keyframe position="0" value="0,0,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="0" value="1" property="opacity" >		</keyframe>
+		<keyframe position="100" value="0,90,0,1.0,1.0,1.0,0,0,0,400px" property="transform-3d" >		</keyframe>
+		<keyframe position="100" value="0" property="opacity" >		</keyframe>
+	</animation>
+</animations>

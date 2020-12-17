@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017.11.06 21:59:04.563.pas,C:\Users\Admin\Desktop\прога курсовая — копия\Unit28.pas=</Transaction>
+    <Transaction>2017.11.06 21:59:04.585.dfm,C:\Users\Admin\Desktop\прога курсовая — копия\Unit28.dfm=</Transaction>
+    <Transaction>2018.01.06 21:45:18.557.pas,C:\Users\Admin\Desktop\прога курсовая\Тесты\Test2.pas=</Transaction>
+    <Transaction>2018.01.06 21:45:18.557.dfm,C:\Users\Admin\Desktop\прога курсовая\Тесты\Test2.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:12.124.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit3.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:12.124.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit3.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:22.359.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit12.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:22.359.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit12.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:31.376.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit13.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:31.376.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit13.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:41.030.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit14.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:41.030.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit14.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:48.548.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit15.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:48.549.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit15.dfm=</Transaction>
+    <Transaction>2018.05.03 23:03:55.738.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit20.pas=</Transaction>
+    <Transaction>2018.05.03 23:03:55.738.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit20.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:02.329.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit18.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:02.329.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit18.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:13.047.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit21.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:13.047.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit21.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:21.202.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit4.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:21.202.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit4.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:28.018.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit16.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:28.019.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit16.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:35.386.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit17.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:35.386.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit17.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:42.161.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit22.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:42.161.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit22.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:48.165.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit23.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:48.165.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit23.dfm=</Transaction>
+    <Transaction>2018.05.03 23:04:54.629.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit5.pas=</Transaction>
+    <Transaction>2018.05.03 23:04:54.629.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit5.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:00.977.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit24.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:00.977.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit24.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:07.025.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit6.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:07.025.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit6.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:12.536.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit7.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:12.536.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit7.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:17.949.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit10.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:17.949.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit10.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:23.469.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit19.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:23.469.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit19.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:29.241.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit9.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:29.241.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit9.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:35.796.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit8.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:35.797.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit8.dfm=</Transaction>
+    <Transaction>2018.05.03 23:05:43.166.pas,C:\Users\Admin\Desktop\Мой диплом\программа\Unit11.pas=</Transaction>
+    <Transaction>2018.05.03 23:05:43.166.dfm,C:\Users\Admin\Desktop\Мой диплом\программа\Unit11.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

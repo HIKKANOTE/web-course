@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Основы html</title>
+</head>
+<body>
+      <h1>Основы html</h1>     
+<!-- список вопросов -->
+<form charset="utf-8" name="Q" action="" method="post">
+    <tr>
+    <td>Вопрос №1</td>
+    
+<br> <input type="radio" name="rb1" value="0" checked="">ответ1
+<br> <input type="radio" name="rb1" value="1">ответ2
+<br> <input type="radio" name="rb1" value="0">ответ3
+<br> <input type="radio" name="rb1" value="0">ответ4
+          </td>
+    </tr>
+  <tr>
+
+<td colspan="2"><hr width="100%" size="1"></td></tr>
+
+ <tr>
+    <td>Вопрос №1</td>
+    
+<br> <input type="radio" name="rb1" value="0" checked="">ответ1
+<br> <input type="radio" name="rb1" value="1">ответ2
+<br> <input type="radio" name="rb1" value="0">ответ3
+<br> <input type="radio" name="rb1" value="0">ответ4
+          </td>
+    </tr>
+  <tr>
+
+
+ <tr>
+    <td>
+<br>Вопрос№2</td>    
+
+<br> Ответ: <input type="text" name="rb2" size="30"> </td></tr>
+<tr>
+
+<td colspan="2"><hr width="100%" size="1"></td></tr>
+
+</tbody></table>
+</form>
+
+
+<!-- невидимые формы -->
+
+<form charset="utf-8" name="L">
+   
+ <input type="hidden" name="l1" value="0">
+    
+<input type="hidden" name="l2" value="4">
+   
+ <input type="hidden" name="l3" value="7">
+   
+ <input type="hidden" name="l4" value="10">
+
+</form>
+
+
+<form charset="utf-8" name="H" action="" method="post">
+    
+<input type="hidden" name="h1" value="3">
+    
+<input type="hidden" name="h2" value="6">
+   
+ <input type="hidden" name="h3" value="9">
+    
+<input type="hidden" name="h4" value="18">
+
+</form>
+
+
+<form charset="utf-8" name="D" action="" method="post">
+     
+ <input type="hidden" name="tDtxt1" value="Ваша оценка 2">
+      
+<input type="hidden" name="tDtxt2" value="Ваша оценка 3">
+      
+<input type="hidden" name="tDtxt3" value="Ваша оценка 4">
+      
+<input type="hidden" name="tDtxt4" value="Ваша оценка 5">
+  
+</form>
+
+<!-- /три невидимые формы -->
+
+
+<!-- скрипт расчета результатов тестирования -->
+
+<script>
+
+<!--
+function makeDiagnosis() {
+
+  tQcnt = 2;
+  tDcnt = 4;
+
+ 
+ summa = 0;
+   
+ for( j=0; j<document.Q.rb1.length; j++ ) { if( document.Q.rb1[j].checked ) { summa += eval(document.Q.rb1[j].value); } }
+
+ if(document.Q.rb2.value=="ЕЖИ"){summa++;} 
+
+ dx = -1;
+  for( i=0; i<tDcnt; i++ ) {
+    if( summa >= eval(document.L.elements[i].value) && summa <= eval(document.H.elements[i].value) ) { dx = i; break; }
+  }
+
+  
+document.C.tDiagnosis.value = "Вы набрали  "+summa+"  баллов. "+document.D.elements[dx].value;
+}
+
+
+// -->
+
+</script>
+
+<!-- /скрипт расчета результатов тестирования -->
+
+
+<!-- форма вывода результатов тестирования -->
+
+<form charset="utf-8" name="C">
+  
+  <center>
+   
+ <input type="button" name="pbSubmit" value="Результаты" onclick="makeDiagnosis()">
+<input type="reset" value="Сбросить" name="res" />
+ <br><br>
+    <textarea name="tDiagnosis" rows="6" cols="80" wrap="">
+</textarea>
+
+
+<hr width="100%" size="1">
+
+
+
+
+
+
+</center>
+</form></body></html>

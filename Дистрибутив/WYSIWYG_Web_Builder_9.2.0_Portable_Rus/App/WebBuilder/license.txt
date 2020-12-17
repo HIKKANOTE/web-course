@@ -1,0 +1,86 @@
+End User License Agreement for WYSIWYG Web Builder 9.x
+
+IMPORTANT NOTICE Read and understand this License 
+Agreement carefully before installing and using this Software.
+It contains extremely important information.
+
+BY USING THIS SOFTWARE IN ANY WAY YOU ACKNOWLEDGE
+THAT YOU HAVE READ, UNDERSTAND AND AGREE TO THE
+TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO
+THESE TERMS, DO NOT USE THIS SOFTWARE IN ANY WAY,
+AND PROMPTLY RETURN IT OR DELETE ANY COPIES OF
+THIS SOFTWARE IN YOUR POSSESSION.
+
+LICENSE GRANT the copyright holder grants you a non-exclusive 
+license to use this software, and any associated documentation 
+("The Software"), as indicated herein.
+
+A license is for 1 user and you may install it on 3 computers. 
+You MAY NOT share the license with another user!
+
+RESTRICTIONS You MAY NOT: (a) sell or distribute this Software 
+package without prior written approval (b) cause or permit reverse
+engineering, disassembly, decompilation or alteration of this 
+Software; (c) remove any product identification, copyright notices,
+or other notices or proprietary restrictions from this Software;
+
+TERM: This License is effective until terminated. You may terminate 
+it at any time by destroying the Software, together with all copies 
+thereof. This License will also terminate if you fail to comply with any 
+term or condition of this Agreement. Upon such termination, you 
+agree to destroy the Software, together with all copies thereof.
+
+COPYRIGHT/OWNERSHIP This Software and its source
+code are proprietary products of Pablo Software Solutions 
+and are protected by copyright, trade secret and other intellectual 
+property laws.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT
+HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS
+OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+This software was created to be free of defects and is designed to
+function on PC computers only. While this software has been tested 
+and proven to run accurately, in the unlikely event of any user or 
+computer incompatibility issues, the end user assumes complete 
+liability of usage. This software contains no adware, scumware or 
+spyware. The maker of this software does not support any 
+questionable forms of use where this software could be misused in 
+any way. 
+
+WARNING: The use of cracks or serial number generators can make your 
+projects useless in the future. When using this software with an 
+illegal license you'll risk losing all your hard work!
+Also when you publish your website online created with illegal 
+software you risk having your website closed due copyright infringement.
+
+REFUND POLICY: Pablo Software Solutions products are all downloadable, 
+fully functional, and try-before-you-buy. We provide a free 30 day 
+trial version of our software for your convenience to fully evaluate 
+in your computing environment. If you purchase one of our products, 
+after your credit card or check is approved, an email will be sent to 
+you with the activation key to unlock the software. 
+Once this information is emailed to you, there will be no refunds given. 
+We must enforce this policy since it would be impossible for you to 
+return your registered version of our software. We strongly recommend 
+that all users download, install, and test the fully functional trial 
+versions prior to making a purchase. Once you have activated the software 
+you will no longer qualify for a refund. Because there is no way to 
+guarantee that our software was actually removed from a system after it is 
+installed, this allows us to help fight fraudulent activity.
+
+http://www.wysiwygwebbuilder.com
